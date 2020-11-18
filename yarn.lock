@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
+"@babel/code-frame@^7.10.4":
   version "7.10.4"
   resolved "https://unpm.uberinternal.com/@babel%2fcode-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
   integrity sha1-Fo2ho26Q2miujUnA8bSMfGJJITo=
@@ -907,7 +907,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/template@^7.10.4", "@babel/template@^7.4.0":
+"@babel/template@^7.0.0", "@babel/template@^7.10.4", "@babel/template@^7.2.2":
   version "7.10.4"
   resolved "https://unpm.uberinternal.com/@babel%2ftemplate/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
   integrity sha1-MlGZbEIA68cdGo/EBfupQPNrong=
@@ -966,130 +966,125 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@parcel/babel-ast-utils@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2fbabel-ast-utils/-/babel-ast-utils-2.0.0-nightly.2071.tgz#e2f0f84f9da701debb36d412fbe9b9f0a793f261"
-  integrity sha1-4vD4T52nAd67NtQS++m58KeT8mE=
+"@parcel/babel-ast-utils@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fbabel-ast-utils/-/babel-ast-utils-2.0.0-beta.1.tgz#e545b5db02d95d32f321e5e12137175935c57615"
+  integrity sha1-5UW12wLZXTLzIeXhITcXWTXFdhU=
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.0.0"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/babel-preset-env@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fbabel-preset-env/-/babel-preset-env-2.0.0-nightly.449.tgz#90b382dc53f040585a7f69b18c9c56003b24e7cd"
-  integrity sha1-kLOC3FPwQFhaf2mxjJxWADsk580=
+"@parcel/babel-preset-env@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fbabel-preset-env/-/babel-preset-env-2.0.0-beta.1.tgz#562837d4c28c271a0e30bc5970ef63965ddc82dc"
+  integrity sha1-Vig31MKMJxoOMLxZcO9jll3cgtw=
   dependencies:
     "@babel/preset-env" "^7.4.0"
     semver "^5.4.1"
 
-"@parcel/babylon-walk@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2fbabylon-walk/-/babylon-walk-2.0.0-nightly.2071.tgz#f4d49163214074d2cd2bbc43cd2602eaf993cb53"
-  integrity sha1-9NSRYyFAdNLNK7xDzSYC6vmTy1M=
+"@parcel/babylon-walk@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fbabylon-walk/-/babylon-walk-2.0.0-beta.1.tgz#feada450c819c67e3552c184c6b30f914a7f54d0"
+  integrity sha1-/q2kUMgZxn41UsGExrMPkUp/VNA=
   dependencies:
     "@babel/types" "^7.0.0"
     lodash.clone "^4.5.0"
 
-"@parcel/bundler-default@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fbundler-default/-/bundler-default-2.0.0-nightly.449.tgz#1898eb0a5b2bc42748a1b56eb695787ee4d808dc"
-  integrity sha1-GJjrClsrxCdIobVutpV4fuTYCNw=
+"@parcel/bundler-default@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fbundler-default/-/bundler-default-2.0.0-beta.1.tgz#66a6762d6bb1fd8c8c9d13177f5fabe1fbf5a196"
+  integrity sha1-ZqZ2LWux/YyMnRMXf1+r4fv1oZY=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/cache@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fcache/-/cache-2.0.0-nightly.449.tgz#8d3cbcfd79657fc8a83a8fa920b14e985b57e878"
-  integrity sha1-jTy8/Xllf8ioOo+pILFOmFtX6Hg=
+"@parcel/cache@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fcache/-/cache-2.0.0-beta.1.tgz#4a69d58f2acdff050256e2f23518d219cd29a089"
+  integrity sha1-SmnVjyrN/wUCVuLyNRjSGc0poIk=
   dependencies:
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/codeframe@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fcodeframe/-/codeframe-2.0.0-nightly.449.tgz#77c7ba848cdef8dd7cedfa122b422acf824fc821"
-  integrity sha1-d8e6hIze+N187foSK0Iqz4JPyCE=
+"@parcel/codeframe@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fcodeframe/-/codeframe-2.0.0-beta.1.tgz#5c1195131b653562d2362f4056767694a1a6f736"
+  integrity sha1-XBGVExtlNWLSNi9AVnZ2lKGm9zY=
   dependencies:
     chalk "^2.4.2"
     emphasize "^2.1.0"
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-"@parcel/config-default@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fconfig-default/-/config-default-2.0.0-nightly.449.tgz#0b34f279469c3cf5b343da369b7c77b5472992c5"
-  integrity sha1-CzTyeUacPPWzQ9o2m3x3tUcpksU=
+"@parcel/config-default@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fconfig-default/-/config-default-2.0.0-beta.1.tgz#ddea69c182ee1105e4682161cf0541d81680b66d"
+  integrity sha1-3eppwYLuEQXkaCFhzwVB2BaAtm0=
   dependencies:
-    "@parcel/bundler-default" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/namer-default" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/optimizer-cssnano" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/optimizer-data-url" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/optimizer-htmlnano" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/optimizer-terser" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/packager-css" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/packager-html" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/packager-js" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/packager-raw" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/packager-raw-url" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/packager-ts" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/reporter-bundle-analyzer" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/reporter-bundle-buddy" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/reporter-cli" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/reporter-dev-server" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/resolver-default" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/runtime-browser-hmr" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/runtime-js" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/runtime-react-refresh" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-babel" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-coffeescript" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-css" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-glsl" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/transformer-graphql" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-html" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-image" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/transformer-inline-string" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-js" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-json" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-jsonld" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/transformer-less" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-mdx" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/transformer-postcss" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-posthtml" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-pug" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-raw" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-react-refresh-babel" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-react-refresh-wrap" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-sass" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-stylus" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-sugarss" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-toml" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-typescript-types" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/transformer-vue" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/transformer-yaml" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/bundler-default" "2.0.0-beta.1"
+    "@parcel/namer-default" "2.0.0-beta.1"
+    "@parcel/optimizer-cssnano" "2.0.0-beta.1"
+    "@parcel/optimizer-data-url" "2.0.0-beta.1"
+    "@parcel/optimizer-htmlnano" "2.0.0-beta.1"
+    "@parcel/optimizer-terser" "2.0.0-beta.1"
+    "@parcel/packager-css" "2.0.0-beta.1"
+    "@parcel/packager-html" "2.0.0-beta.1"
+    "@parcel/packager-js" "2.0.0-beta.1"
+    "@parcel/packager-raw" "2.0.0-beta.1"
+    "@parcel/packager-raw-url" "2.0.0-beta.1"
+    "@parcel/packager-ts" "2.0.0-beta.1"
+    "@parcel/reporter-bundle-analyzer" "2.0.0-beta.1"
+    "@parcel/reporter-bundle-buddy" "2.0.0-beta.1"
+    "@parcel/reporter-cli" "2.0.0-beta.1"
+    "@parcel/reporter-dev-server" "2.0.0-beta.1"
+    "@parcel/resolver-default" "2.0.0-beta.1"
+    "@parcel/runtime-browser-hmr" "2.0.0-beta.1"
+    "@parcel/runtime-js" "2.0.0-beta.1"
+    "@parcel/runtime-react-refresh" "2.0.0-beta.1"
+    "@parcel/transformer-babel" "2.0.0-beta.1"
+    "@parcel/transformer-coffeescript" "2.0.0-beta.1"
+    "@parcel/transformer-css" "2.0.0-beta.1"
+    "@parcel/transformer-graphql" "2.0.0-beta.1"
+    "@parcel/transformer-html" "2.0.0-beta.1"
+    "@parcel/transformer-inline-string" "2.0.0-beta.1"
+    "@parcel/transformer-js" "2.0.0-beta.1"
+    "@parcel/transformer-json" "2.0.0-beta.1"
+    "@parcel/transformer-jsonld" "2.0.0-beta.1"
+    "@parcel/transformer-less" "2.0.0-beta.1"
+    "@parcel/transformer-mdx" "2.0.0-beta.1"
+    "@parcel/transformer-postcss" "2.0.0-beta.1"
+    "@parcel/transformer-posthtml" "2.0.0-beta.1"
+    "@parcel/transformer-pug" "2.0.0-beta.1"
+    "@parcel/transformer-raw" "2.0.0-beta.1"
+    "@parcel/transformer-react-refresh-babel" "2.0.0-beta.1"
+    "@parcel/transformer-react-refresh-wrap" "2.0.0-beta.1"
+    "@parcel/transformer-sass" "2.0.0-beta.1"
+    "@parcel/transformer-stylus" "2.0.0-beta.1"
+    "@parcel/transformer-sugarss" "2.0.0-beta.1"
+    "@parcel/transformer-toml" "2.0.0-beta.1"
+    "@parcel/transformer-typescript-types" "2.0.0-beta.1"
+    "@parcel/transformer-yaml" "2.0.0-beta.1"
 
-"@parcel/core@2.0.0-nightly.447+837d1fbd":
-  version "2.0.0-nightly.447"
-  resolved "https://unpm.uberinternal.com/@parcel%2fcore/-/core-2.0.0-nightly.447.tgz#ddf02b86f3a62b5f74259d9d97703592d8797ea6"
-  integrity sha1-3fArhvOmK190JZ2dl3A1kth5fqY=
+"@parcel/core@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fcore/-/core-2.0.0-beta.1.tgz#d1cf4352a954c6dbe2b31543f937902ba6cf3848"
+  integrity sha1-0c9DUqlUxtvisxVD+TeQK6bPOEg=
   dependencies:
-    "@parcel/cache" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/events" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/fs" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/package-manager" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/types" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/workers" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/cache" "2.0.0-beta.1"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/events" "2.0.0-beta.1"
+    "@parcel/fs" "2.0.0-beta.1"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/package-manager" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/types" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
+    "@parcel/workers" "2.0.0-beta.1"
     abortcontroller-polyfill "^1.1.9"
-    base-x "^3.0.8"
     browserslist "^4.6.6"
     clone "^2.1.1"
     dotenv "^7.0.0"
@@ -1098,75 +1093,73 @@
     json5 "^1.0.1"
     micromatch "^4.0.2"
     nullthrows "^1.1.1"
-    querystring "^0.2.0"
     semver "^5.4.1"
 
-"@parcel/diagnostic@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fdiagnostic/-/diagnostic-2.0.0-nightly.449.tgz#5ea6f709fad1376ae833497b507422661115a95e"
-  integrity sha1-Xqb3CfrRN2roM0l7UHQiZhEVqV4=
+"@parcel/diagnostic@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fdiagnostic/-/diagnostic-2.0.0-beta.1.tgz#0616cf75fd8e294643fe13b204ad1e60b42bb66d"
+  integrity sha1-BhbPdf2OKUZD/hOyBK0eYLQrtm0=
   dependencies:
     json-source-map "^0.6.1"
     nullthrows "^1.1.1"
 
-"@parcel/events@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fevents/-/events-2.0.0-nightly.449.tgz#e7e41c368c7f1357e118c1da4264e7add57b6475"
-  integrity sha1-5+QcNox/E1fhGMHaQmTnrdV7ZHU=
+"@parcel/events@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fevents/-/events-2.0.0-beta.1.tgz#8f7c2276dab1938f6d47d2d2a64a1fde0b58b7eb"
+  integrity sha1-j3widtqxk49tR9LSpkof3gtYt+s=
 
-"@parcel/fs-write-stream-atomic@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ffs-write-stream-atomic/-/fs-write-stream-atomic-2.0.0-nightly.2071.tgz#e239927e1d6b55a7b8ae2445f3839483752e75d6"
-  integrity sha1-4jmSfh1rVae4riRF84OUg3UuddY=
+"@parcel/fs-write-stream-atomic@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ffs-write-stream-atomic/-/fs-write-stream-atomic-2.0.0-beta.1.tgz#158fb2cb4bf56342bce71841794616909bc50300"
+  integrity sha1-FY+yy0v1Y0K85xhBeUYWkJvFAwA=
   dependencies:
     graceful-fs "^4.1.2"
     iferr "^1.0.2"
     imurmurhash "^0.1.4"
     readable-stream "1 || 2"
 
-"@parcel/fs@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ffs/-/fs-2.0.0-nightly.449.tgz#07822ea3db9a558015db223fa0dbb1edaca6a449"
-  integrity sha1-B4Iuo9uaVYAV2yI/oNux7aympEk=
+"@parcel/fs@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ffs/-/fs-2.0.0-beta.1.tgz#bbe3ab36736cca7399804fa38e5daa553f9ec723"
+  integrity sha1-u+OrNnNsynOZgE+jjl2qVT+exyM=
   dependencies:
-    "@parcel/fs-write-stream-atomic" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/watcher" "2.0.0-alpha.8"
-    "@parcel/workers" "2.0.0-nightly.449+837d1fbd"
-    graceful-fs "^4.2.4"
+    "@parcel/fs-write-stream-atomic" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
+    "@parcel/watcher" "^2.0.0-alpha.5"
+    "@parcel/workers" "2.0.0-beta.1"
     mkdirp "^0.5.1"
     ncp "^2.0.0"
     nullthrows "^1.1.1"
-    rimraf "^3.0.2"
+    rimraf "^2.6.2"
 
-"@parcel/logger@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2flogger/-/logger-2.0.0-nightly.449.tgz#0a088eacaa32fca33fc835d382feecda86b3d54c"
-  integrity sha1-CgiOrKoy/KM/yDXTgv7s2oaz1Uw=
+"@parcel/logger@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2flogger/-/logger-2.0.0-beta.1.tgz#a987e863db6d5ba02092894c2ef92bce74d9ea23"
+  integrity sha1-qYfoY9ttW6AgkolMLvkrznTZ6iM=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/events" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/events" "2.0.0-beta.1"
 
-"@parcel/markdown-ansi@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fmarkdown-ansi/-/markdown-ansi-2.0.0-nightly.449.tgz#27f75e203b4fa67bebfb0b34c4951319e32d4ea3"
-  integrity sha1-J/deIDtPpnvr+ws0xJUTGeMtTqM=
+"@parcel/markdown-ansi@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fmarkdown-ansi/-/markdown-ansi-2.0.0-beta.1.tgz#3dc3a805a475f560328cdbb2ef3ea892e468905a"
+  integrity sha1-PcOoBaR19WAyjNuy7z6okuRokFo=
   dependencies:
     chalk "^2.4.2"
 
-"@parcel/namer-default@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fnamer-default/-/namer-default-2.0.0-nightly.449.tgz#448a1ad3b0dc38f0431cf1ebdee8403d73d05519"
-  integrity sha1-RIoa07DcOPBDHPHr3uhAPXPQVRk=
+"@parcel/namer-default@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fnamer-default/-/namer-default-2.0.0-beta.1.tgz#f8c018648f3991e537462fa7f73925cac19b3276"
+  integrity sha1-+MAYZI85keU3Ri+n9zklysGbMnY=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/node-libs-browser@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2fnode-libs-browser/-/node-libs-browser-2.0.0-nightly.2071.tgz#08a3a1de1e3d3c4fdab4e302abbbc325c0e604e0"
-  integrity sha1-CKOh3h49PE/atOMCq7vDJcDmBOA=
+"@parcel/node-libs-browser@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fnode-libs-browser/-/node-libs-browser-2.0.0-beta.1.tgz#7004d99e2e76b238c362ca1262f30c74e3f36c84"
+  integrity sha1-cATZni52sjjDYsoSYvMMdOPzbIQ=
   dependencies:
     assert "^2.0.0"
     browserify-zlib "^0.2.0"
@@ -1191,71 +1184,70 @@
     util "^0.12.3"
     vm-browserify "^1.1.2"
 
-"@parcel/node-resolver-core@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2fnode-resolver-core/-/node-resolver-core-2.0.0-nightly.2071.tgz#a725fa191419b2e1a64ef970ac1c08858c822cc3"
-  integrity sha1-pyX6GRQZsuGmTvlwrBwIhYyCLMM=
+"@parcel/node-resolver-core@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fnode-resolver-core/-/node-resolver-core-2.0.0-beta.1.tgz#012234b691fe2a913210544b2be538875cd16614"
+  integrity sha1-ASI0tpH+KpEyEFRLK+U4h1zRZhQ=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/node-libs-browser" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/node-libs-browser" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     micromatch "^3.0.4"
     nullthrows "^1.1.1"
-    querystring "^0.2.0"
 
-"@parcel/optimizer-cssnano@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-cssnano/-/optimizer-cssnano-2.0.0-nightly.449.tgz#f22c22863df7b23a70fab857e89377fd2376ce3d"
-  integrity sha1-8iwihj33sjpw+rhX6JN3/SN2zj0=
+"@parcel/optimizer-cssnano@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-cssnano/-/optimizer-cssnano-2.0.0-beta.1.tgz#a233d16e8330c2cf17fc897b9feb5265ccddccaf"
+  integrity sha1-ojPRboMwws8X/Il7n+tSZczdzK8=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
     cssnano "^4.1.10"
-    postcss "^8.0.5"
+    postcss "^7.0.5"
 
-"@parcel/optimizer-data-url@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-data-url/-/optimizer-data-url-2.0.0-nightly.449.tgz#afa33f9cc38b6f4f9b56b39e951529f5883f4549"
-  integrity sha1-r6M/nMOLb0+bVrOelRUp9Yg/RUk=
+"@parcel/optimizer-data-url@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-data-url/-/optimizer-data-url-2.0.0-beta.1.tgz#17491b755e0a66492888be2ab0f774519502107e"
+  integrity sha1-F0kbdV4KZkkoiL4qsPd0UZUCEH4=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     isbinaryfile "^4.0.2"
     mime "^2.4.4"
 
-"@parcel/optimizer-htmlnano@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-htmlnano/-/optimizer-htmlnano-2.0.0-nightly.449.tgz#30ebdb834b2ac35fbd2ce8570e564c5c47a303f8"
-  integrity sha1-MOvbg0sqw1+9LOhXDlZMXEejA/g=
+"@parcel/optimizer-htmlnano@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-htmlnano/-/optimizer-htmlnano-2.0.0-beta.1.tgz#8716b21983dcaa87165c1d89b822f8e918805822"
+  integrity sha1-hxayGYPcqocWXB2JuCL46RiAWCI=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     htmlnano "^0.2.2"
     nullthrows "^1.1.1"
     posthtml "^0.11.3"
 
-"@parcel/optimizer-terser@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-terser/-/optimizer-terser-2.0.0-nightly.449.tgz#7834577cb4a87071ae99d82d4ff1bab0853fdb80"
-  integrity sha1-eDRXfLSocHGumdgtT/G6sIU/24A=
+"@parcel/optimizer-terser@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2foptimizer-terser/-/optimizer-terser-2.0.0-beta.1.tgz#0f5c9e95e3a56675763d532db3dc470b12aedbe5"
+  integrity sha1-D1yeleOlZnV2PVMts9xHCxKu2+U=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
-    terser "^5.2.0"
+    terser "^4.3.0"
 
-"@parcel/package-manager@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackage-manager/-/package-manager-2.0.0-nightly.449.tgz#3374d94997d48bc55f0c2c284a4fdde3c154eccc"
-  integrity sha1-M3TZSZfUi8VfDCwoSk/d48FU7Mw=
+"@parcel/package-manager@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackage-manager/-/package-manager-2.0.0-beta.1.tgz#7da4b67df8c91e2e5284c5f0a0bf36cf220dc644"
+  integrity sha1-faS2ffjJHi5ShMXwoL82zyINxkQ=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/fs" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/workers" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/fs" "2.0.0-beta.1"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
+    "@parcel/workers" "2.0.0-beta.1"
     command-exists "^1.2.6"
     cross-spawn "^6.0.4"
     nullthrows "^1.1.1"
@@ -1263,91 +1255,91 @@
     semver "^5.4.1"
     split2 "^3.1.1"
 
-"@parcel/packager-css@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-css/-/packager-css-2.0.0-nightly.449.tgz#961e747e88dfcaf7037454887412b57f10532a4a"
-  integrity sha1-lh50fojfyvcDdFSIdBK1fxBTKko=
+"@parcel/packager-css@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-css/-/packager-css-2.0.0-beta.1.tgz#374bcf0af5736694bb35a11137152e2829610326"
+  integrity sha1-N0vPCvVzZpS7NaERNxUuKClhAyY=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/packager-html@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-html/-/packager-html-2.0.0-nightly.449.tgz#3a8e07496ae23da802a217ed6c82df5b9529a0e1"
-  integrity sha1-Oo4HSWriPagCohftbILfW5UpoOE=
+"@parcel/packager-html@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-html/-/packager-html-2.0.0-beta.1.tgz#c10d341702b4957f17b4c9e30af1a8362a9fd947"
+  integrity sha1-wQ00FwK0lX8XtMnjCvGoNiqf2Uc=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/types" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/types" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
     posthtml "^0.11.3"
 
-"@parcel/packager-js@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-js/-/packager-js-2.0.0-nightly.449.tgz#ce9e8c165c8f3f0c2ba8c447cc3b55c523c892e0"
-  integrity sha1-zp6MFlyPPwwrqMRHzDtVxSPIkuA=
+"@parcel/packager-js@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-js/-/packager-js-2.0.0-beta.1.tgz#4ddf768fe1f3b3ae9dea10291d3d563734a45d90"
+  integrity sha1-Td92j+Hzs66d6hApHT1WNzSkXZA=
   dependencies:
     "@babel/traverse" "^7.2.3"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/scope-hoisting" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/scope-hoisting" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/packager-raw-url@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-raw-url/-/packager-raw-url-2.0.0-nightly.2071.tgz#6adda25e448f0edbf707b54a75129b21a4c99c44"
-  integrity sha1-at2iXkSPDtv3B7VKdRKbIaTJnEQ=
+"@parcel/packager-raw-url@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-raw-url/-/packager-raw-url-2.0.0-beta.1.tgz#fb3378bf28f77cc84a27efbf0b7d191a4d06c354"
+  integrity sha1-+zN4vyj3fMhKJ++/C30ZGk0Gw1Q=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/packager-raw@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-raw/-/packager-raw-2.0.0-nightly.449.tgz#d3e14dc2d8c80d4ace8a01ce7a1718479c74dda6"
-  integrity sha1-0+FNwtjIDUrOigHOehcYR5x03aY=
+"@parcel/packager-raw@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-raw/-/packager-raw-2.0.0-beta.1.tgz#3e3c574e6134a94d77ead5a850151716986b645c"
+  integrity sha1-PjxXTmE0qU136tWoUBUXFphrZFw=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/packager-ts@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-ts/-/packager-ts-2.0.0-nightly.449.tgz#8970151da387141a7d0328a3d41c7d1e09b545f5"
-  integrity sha1-iXAVHaOHFBp9Ayij1Bx9Hgm1RfU=
+"@parcel/packager-ts@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fpackager-ts/-/packager-ts-2.0.0-beta.1.tgz#20e5f8449ff60ccee3999741cad6bd33d96bdfb9"
+  integrity sha1-IOX4RJ/2DM7jmZdByta9M9lr37k=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/plugin@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fplugin/-/plugin-2.0.0-nightly.449.tgz#3299648d71296068a2f259803e241fcbcc034b26"
-  integrity sha1-MplkjXEpYGii8lmAPiQfy8wDSyY=
+"@parcel/plugin@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fplugin/-/plugin-2.0.0-beta.1.tgz#b19f571f59a4f979cc1310d3e0d073fbd9988bd2"
+  integrity sha1-sZ9XH1mk+XnMExDT4NBz+9mYi9I=
   dependencies:
-    "@parcel/types" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/types" "2.0.0-beta.1"
 
-"@parcel/reporter-bundle-analyzer@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2freporter-bundle-analyzer/-/reporter-bundle-analyzer-2.0.0-nightly.2071.tgz#f4ff3848c0957c37dfe2c5107822268f86fce51e"
-  integrity sha1-9P84SMCVfDff4sUQeCImj4b85R4=
+"@parcel/reporter-bundle-analyzer@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2freporter-bundle-analyzer/-/reporter-bundle-analyzer-2.0.0-beta.1.tgz#98b39a6cc56792d48e83e7ec88b176adb133e600"
+  integrity sha1-mLOabMVnktSOg+fsiLF2rbEz5gA=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/reporter-bundle-buddy@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2freporter-bundle-buddy/-/reporter-bundle-buddy-2.0.0-nightly.2071.tgz#a3a93797ec9554da98292f960975565296b88a72"
-  integrity sha1-o6k3l+yVVNqYKS+WCXVWUpa4inI=
+"@parcel/reporter-bundle-buddy@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2freporter-bundle-buddy/-/reporter-bundle-buddy-2.0.0-beta.1.tgz#7f01ab7d37dc214380e25a1d8572f6074fe3fa49"
+  integrity sha1-fwGrfTfcIUOA4lodhXL2B0/j+kk=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/reporter-cli@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2freporter-cli/-/reporter-cli-2.0.0-nightly.449.tgz#4d8df81dc6ad464b79c304ee4cfb1b52629af29a"
-  integrity sha1-TY34HcatRkt5wwTuTPsbUmKa8po=
+"@parcel/reporter-cli@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2freporter-cli/-/reporter-cli-2.0.0-beta.1.tgz#ba0effb57f1ac397275e16e76b51f29d8f2bd179"
+  integrity sha1-ug7/tX8aw5cnXhbna1HynY8r0Xk=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/types" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/types" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     chalk "^3.0.0"
     filesize "^3.6.0"
     nullthrows "^1.1.1"
@@ -1356,82 +1348,81 @@
     strip-ansi "^6.0.0"
     term-size "^2.1.1"
 
-"@parcel/reporter-dev-server@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2freporter-dev-server/-/reporter-dev-server-2.0.0-nightly.449.tgz#5ec9ec25d3696f52ccc8c92018d78caff470e070"
-  integrity sha1-XsnsJdNpb1LMyMkgGNeMr/Rw4HA=
+"@parcel/reporter-dev-server@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2freporter-dev-server/-/reporter-dev-server-2.0.0-beta.1.tgz#6040b4d2da7d65a238775f51a39ec6f5d7ac5ddf"
+  integrity sha1-YEC00tp9ZaI4d19Ro57G9desXd8=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     connect "^3.7.0"
     ejs "^2.6.1"
-    http-proxy-middleware "^1.0.0"
+    http-proxy-middleware "^0.19.1"
+    mime "^2.4.4"
     nullthrows "^1.1.1"
-    serve-handler "^6.0.0"
     ws "^6.2.0"
 
-"@parcel/resolver-default@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fresolver-default/-/resolver-default-2.0.0-nightly.449.tgz#9d3465c225614598b0ab68f62fae0dab4c0d71d5"
-  integrity sha1-nTRlwiVhRZiwq2j2L64Nq0wNcdU=
+"@parcel/resolver-default@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fresolver-default/-/resolver-default-2.0.0-beta.1.tgz#eb3349339a18c5d8aa3c01d8813d14640e7f45b7"
+  integrity sha1-6zNJM5oYxdiqPAHYgT0UZA5/Rbc=
   dependencies:
-    "@parcel/node-resolver-core" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/node-resolver-core" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/runtime-browser-hmr@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-browser-hmr/-/runtime-browser-hmr-2.0.0-nightly.449.tgz#5bb4f08873193dd4cab8e134ec5ead1066d2509d"
-  integrity sha1-W7TwiHMZPdTKuOE07F6tEGbSUJ0=
+"@parcel/runtime-browser-hmr@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-browser-hmr/-/runtime-browser-hmr-2.0.0-beta.1.tgz#6c0e85e13c10cc1f0d91c4d0ae8e45bf954f1ed7"
+  integrity sha1-bA6F4TwQzB8NkcTQro5Fv5VPHtc=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/runtime-js@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-js/-/runtime-js-2.0.0-nightly.449.tgz#26c4b28a1f05a26bddbbe95d45c9589048ed2086"
-  integrity sha1-JsSyih8Fomvdu+ldRclYkEjtIIY=
+"@parcel/runtime-js@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-js/-/runtime-js-2.0.0-beta.1.tgz#12a370afad5333b03d5b237ee96c74553e95a743"
+  integrity sha1-EqNwr61TM7A9WyN+6Wx0VT6Vp0M=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/runtime-react-refresh@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-react-refresh/-/runtime-react-refresh-2.0.0-nightly.449.tgz#e3903b5c6dbf46c296966f4787905553f853ea13"
-  integrity sha1-45A7XG2/RsKWlm9Hh5BVU/hT6hM=
+"@parcel/runtime-react-refresh@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fruntime-react-refresh/-/runtime-react-refresh-2.0.0-beta.1.tgz#eeb6c0179149b69e51b29cb5f02e59d93706aca6"
+  integrity sha1-7rbAF5FJtp5Rspy18C5Z2TcGrKY=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    react-refresh "^0.9.0"
+    "@parcel/plugin" "2.0.0-beta.1"
+    react-refresh "^0.6.0"
 
-"@parcel/scope-hoisting@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fscope-hoisting/-/scope-hoisting-2.0.0-nightly.449.tgz#9fbe4b8bf479e7bfc96f076aef0308ae2545058e"
-  integrity sha1-n75Li/R557/Jbwdq7wMIriVFBY4=
+"@parcel/scope-hoisting@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fscope-hoisting/-/scope-hoisting-2.0.0-beta.1.tgz#7013c831c2880491c000325c1d6233c76088c5fc"
+  integrity sha1-cBPIMcKIBJHAADJcHWIzx2CIxfw=
   dependencies:
     "@babel/generator" "^7.3.3"
     "@babel/parser" "^7.0.0"
-    "@babel/template" "^7.4.0"
+    "@babel/template" "^7.2.2"
     "@babel/traverse" "^7.2.3"
     "@babel/types" "^7.3.3"
-    "@parcel/babel-ast-utils" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/babylon-walk" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/babylon-walk" "2.0.0-beta.1"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/source-map@2.0.0-alpha.4.16":
-  version "2.0.0-alpha.4.16"
-  resolved "https://unpm.uberinternal.com/@parcel%2fsource-map/-/source-map-2.0.0-alpha.4.16.tgz#d311b82f352300a829d76ab6a9f9d0c63ed9490c"
-  integrity sha1-0xG4LzUjAKgp12q2qfnQxj7ZSQw=
+"@parcel/source-map@2.0.0-alpha.4.13":
+  version "2.0.0-alpha.4.13"
+  resolved "https://unpm.uberinternal.com/@parcel%2fsource-map/-/source-map-2.0.0-alpha.4.13.tgz#2b262be6e99a15e9de3f6656df27c0b0c4809b83"
+  integrity sha1-KyYr5umaFeneP2ZW3yfAsMSAm4M=
   dependencies:
-    node-addon-api "^3.0.0"
+    node-addon-api "^2.0.0"
     node-gyp-build "^4.2.2"
 
-"@parcel/transformer-babel@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-babel/-/transformer-babel-2.0.0-nightly.449.tgz#099259ef4ac9f02f61cc5c6ff8102d07489345cf"
-  integrity sha1-CZJZ70rJ8C9hzFxv+BAtB0iTRc8=
+"@parcel/transformer-babel@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-babel/-/transformer-babel-2.0.0-beta.1.tgz#9233185441391258d664c9241352f66a2395452e"
+  integrity sha1-kjMYVEE5EljWZMkkE1L2aiOVRS4=
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/generator" "^7.0.0"
@@ -1441,312 +1432,286 @@
     "@babel/preset-env" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     "@babel/traverse" "^7.0.0"
-    "@parcel/babel-ast-utils" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/babel-preset-env" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/babel-ast-utils" "2.0.0-beta.1"
+    "@parcel/babel-preset-env" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     browserslist "^4.6.6"
     core-js "^3.2.1"
     nullthrows "^1.1.1"
     semver "^5.7.0"
 
-"@parcel/transformer-coffeescript@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-coffeescript/-/transformer-coffeescript-2.0.0-nightly.449.tgz#a1bcf008ec744aa29875081808e6e7f4072b2c68"
-  integrity sha1-obzwCOx0SqKYdQgYCObn9AcrLGg=
+"@parcel/transformer-coffeescript@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-coffeescript/-/transformer-coffeescript-2.0.0-beta.1.tgz#b399b95620e71d62738fb510f68454ce0962a614"
+  integrity sha1-s5m5ViDnHWJzj7UQ9oRUzgliphQ=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
     coffeescript "^2.0.3"
     nullthrows "^1.1.1"
     semver "^5.4.1"
 
-"@parcel/transformer-css@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-css/-/transformer-css-2.0.0-nightly.449.tgz#78b87be06020aed3463f2acaa8761c7e535e888d"
-  integrity sha1-eLh74GAgrtNGPyrKqHYcflNeiI0=
+"@parcel/transformer-css@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-css/-/transformer-css-2.0.0-beta.1.tgz#68899a329695dde4115ab44a1a7c08d38c99157d"
+  integrity sha1-aImaMpaV3eQRWrRKGnwI04yZFX0=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    postcss "^8.0.5"
-    postcss-value-parser "^4.1.0"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
+    postcss "^7.0.5"
+    postcss-value-parser "^3.3.1"
     semver "^5.4.1"
 
-"@parcel/transformer-glsl@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-glsl/-/transformer-glsl-2.0.0-nightly.2071.tgz#fe62e491bff66fdc4817895600ba207cff582fb2"
-  integrity sha1-/mLkkb/2b9xIF4lWALogfP9YL7I=
+"@parcel/transformer-graphql@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-graphql/-/transformer-graphql-2.0.0-beta.1.tgz#7c1dc7718c9dc33ce65c3f0e36a9306f85e8e395"
+  integrity sha1-fB3HcYydwzzmXD8ONqkwb4Xo45U=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-graphql@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-graphql/-/transformer-graphql-2.0.0-nightly.449.tgz#6014a1ffd2f0d0af3c84b6c8616770c54f9c428b"
-  integrity sha1-YBSh/9Lw0K88hLbIYWdwxU+cQos=
+"@parcel/transformer-html@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-html/-/transformer-html-2.0.0-beta.1.tgz#e30e9f08add69afc9c82d9e748ae554dd6701074"
+  integrity sha1-4w6fCK3WmvycgtnnSK5VTdZwEHQ=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-
-"@parcel/transformer-html@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-html/-/transformer-html-2.0.0-nightly.449.tgz#c24aff17cce228fdd85da8604756e1f7165c28cd"
-  integrity sha1-wkr/F8ziKP3YXahgR1bh9xZcKM0=
-  dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
     posthtml "^0.11.3"
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
     semver "^5.4.1"
 
-"@parcel/transformer-image@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-image/-/transformer-image-2.0.0-nightly.2071.tgz#bc45d8ebe906fa91aa7b8d9a6735c78aad96a905"
-  integrity sha1-vEXY6+kG+pGqe42aZzXHiq2WqQU=
+"@parcel/transformer-inline-string@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-inline-string/-/transformer-inline-string-2.0.0-beta.1.tgz#306deba7dff779c7e450136839f51064c6cb1672"
+  integrity sha1-MG3rp9/3ecfkUBNoOfUQZMbLFnI=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-inline-string@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-inline-string/-/transformer-inline-string-2.0.0-nightly.449.tgz#015aca67e176adb080d324931053c2ce86d70441"
-  integrity sha1-AVrKZ+F2rbCA0ySTEFPCzobXBEE=
-  dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-
-"@parcel/transformer-js@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-js/-/transformer-js-2.0.0-nightly.449.tgz#abd06895e8b3c0f1348f17a28bac9c7e87c2610f"
-  integrity sha1-q9BoleizwPE0jxeii6ycfofCYQ8=
+"@parcel/transformer-js@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-js/-/transformer-js-2.0.0-beta.1.tgz#350e41f2536d55eb69cc8628b918c5a31d1ce70c"
+  integrity sha1-NQ5B8lNtVetpzIYouRjFox0c5ww=
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.0.0"
     "@babel/plugin-transform-modules-commonjs" "^7.0.0"
-    "@babel/template" "^7.4.0"
+    "@babel/template" "^7.0.0"
     "@babel/traverse" "^7.0.0"
     "@babel/types" "^7.0.0"
-    "@parcel/babel-ast-utils" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/babylon-walk" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/scope-hoisting" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    micromatch "^4.0.2"
+    "@parcel/babel-ast-utils" "2.0.0-beta.1"
+    "@parcel/babylon-walk" "2.0.0-beta.1"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/scope-hoisting" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
     semver "^5.4.1"
 
-"@parcel/transformer-json@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-json/-/transformer-json-2.0.0-nightly.449.tgz#18c4e9181bf55dd85bbee016427bda3864e742d7"
-  integrity sha1-GMTpGBv1XdhbvuAWQnvaOGTnQtc=
+"@parcel/transformer-json@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-json/-/transformer-json-2.0.0-beta.1.tgz#c1519d3ca166d223d185fca1fab9fc32fd4e618f"
+  integrity sha1-wVGdPKFm0iPRhfyh+rn8Mv1OYY8=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
     json5 "^2.1.0"
 
-"@parcel/transformer-jsonld@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-jsonld/-/transformer-jsonld-2.0.0-nightly.2071.tgz#bb9d432d9efafb17c9832f848644e97e964e8ce6"
-  integrity sha1-u51DLZ76+xfJgy+EhkTpfpZOjOY=
+"@parcel/transformer-jsonld@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-jsonld/-/transformer-jsonld-2.0.0-beta.1.tgz#ccff5e330ba82a137e4166e8538b9f5dd921c778"
+  integrity sha1-zP9eMwuoKhN+QWboU4ufXdkhx3g=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/types" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/types" "2.0.0-beta.1"
     json5 "^2.1.2"
 
-"@parcel/transformer-less@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-less/-/transformer-less-2.0.0-nightly.449.tgz#a4798842c463b7f4aa9b6e85dd790db55ef3a41b"
-  integrity sha1-pHmIQsRjt/Sqm26F3XkNtV7zpBs=
+"@parcel/transformer-less@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-less/-/transformer-less-2.0.0-beta.1.tgz#09e58220404781f406e9241a1ea859f19a91adc5"
+  integrity sha1-CeWCIEBHgfQG6SQaHqhZ8ZqRrcU=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
 
-"@parcel/transformer-mdx@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-mdx/-/transformer-mdx-2.0.0-nightly.2071.tgz#ff7e77aec3897a9c80ffda3b21145545c9817fc9"
-  integrity sha1-/353rsOJepyA/9o7IRRVRcmBf8k=
+"@parcel/transformer-mdx@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-mdx/-/transformer-mdx-2.0.0-beta.1.tgz#139057e1acedb2b6eeb5472e60f3853d20ab4760"
+  integrity sha1-E5BX4aztsrbutUcuYPOFPSCrR2A=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-postcss@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-postcss/-/transformer-postcss-2.0.0-nightly.449.tgz#d90d1ac841f253d04308603e78f21c93256b6705"
-  integrity sha1-2Q0ayEHyU9BDCGA+ePIckyVrZwU=
+"@parcel/transformer-postcss@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-postcss/-/transformer-postcss-2.0.0-beta.1.tgz#15f8802730d6d2ba21ef044119d6394657e248ab"
+  integrity sha1-FfiAJzDW0roh7wRBGdY5RlfiSKs=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     css-modules-loader-core "^1.1.0"
     nullthrows "^1.1.1"
-    postcss-value-parser "^4.1.0"
+    postcss "^7.0.5"
+    postcss-value-parser "^3.3.1"
     semver "^5.4.1"
 
-"@parcel/transformer-posthtml@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-posthtml/-/transformer-posthtml-2.0.0-nightly.449.tgz#076f3b05d6d02b0391e48de126a8db12af761021"
-  integrity sha1-B287BdbQKwOR5I3hJqjbEq92ECE=
+"@parcel/transformer-posthtml@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-posthtml/-/transformer-posthtml-2.0.0-beta.1.tgz#db1b1b5b96203225cb05916b6091c3bb69e3ef2c"
+  integrity sha1-2xsbW5YgMiXLBZFrYJHDu2nj7yw=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
     nullthrows "^1.1.1"
     posthtml "^0.11.3"
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
     semver "^5.4.1"
 
-"@parcel/transformer-pug@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-pug/-/transformer-pug-2.0.0-nightly.449.tgz#cdafcb2be4bf3726d8958ff630a93b6b4b804457"
-  integrity sha1-za/LK+S/NybYlY/2MKk7a0uARFc=
+"@parcel/transformer-pug@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-pug/-/transformer-pug-2.0.0-beta.1.tgz#45ffdb02d17fa3bbfcbb8acf07a28d30734d8175"
+  integrity sha1-Rf/bAtF/o7v8u4rPB6KNMHNNgXU=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-raw@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-raw/-/transformer-raw-2.0.0-nightly.449.tgz#bd7af800b97d7ea45771ff8a0662d51b2e93f736"
-  integrity sha1-vXr4ALl9fqRXcf+KBmLVGy6T9zY=
+"@parcel/transformer-raw@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-raw/-/transformer-raw-2.0.0-beta.1.tgz#7a46974e08b1a45bb633e3e14cdceafd53f37c08"
+  integrity sha1-ekaXTgixpFu2M+PhTNzq/VPzfAg=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-react-refresh-babel@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-react-refresh-babel/-/transformer-react-refresh-babel-2.0.0-nightly.449.tgz#53bc3896bc88777115421b8f9dbd0c928493f153"
-  integrity sha1-U7w4lryId3EVQhuPnb0MkoST8VM=
+"@parcel/transformer-react-refresh-babel@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-react-refresh-babel/-/transformer-react-refresh-babel-2.0.0-beta.1.tgz#ed327591e50d5e2f4b29c8b3b74af1774caecfdb"
+  integrity sha1-7TJ1keUNXi9LKcizt0rxd0yuz9s=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    react-refresh "^0.9.0"
+    "@parcel/plugin" "2.0.0-beta.1"
+    react-refresh "^0.6.0"
 
-"@parcel/transformer-react-refresh-wrap@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-react-refresh-wrap/-/transformer-react-refresh-wrap-2.0.0-nightly.449.tgz#4505f39499140bef21b9d2c9cf4cd8227f7591dd"
-  integrity sha1-RQXzlJkUC+8hudLJz0zYIn91kd0=
+"@parcel/transformer-react-refresh-wrap@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-react-refresh-wrap/-/transformer-react-refresh-wrap-2.0.0-beta.1.tgz#e10dcf29e4859a4423a272133fc3f4f5f5d1d963"
+  integrity sha1-4Q3PKeSFmkQjonITP8P09fXR2WM=
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.0.0"
-    "@babel/template" "^7.4.0"
+    "@babel/template" "^7.0.0"
     "@babel/types" "^7.0.0"
-    "@parcel/babel-ast-utils" "2.0.0-nightly.2071+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    react-refresh "^0.9.0"
+    "@parcel/babel-ast-utils" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
+    react-refresh "^0.6.0"
     semver "^5.4.1"
 
-"@parcel/transformer-sass@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-sass/-/transformer-sass-2.0.0-nightly.449.tgz#6a5e6f3c0b77e5db1ce8665fda07687373f6b586"
-  integrity sha1-al5vPAt35dsc6GZf2gdoc3P2tYY=
+"@parcel/transformer-sass@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-sass/-/transformer-sass-2.0.0-beta.1.tgz#848888573ee10f131ac2a1e8495b503236f9dda6"
+  integrity sha1-hIiIVz7hDxMawqHoSVtQMjb53aY=
   dependencies:
-    "@parcel/fs" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/fs" "2.0.0-beta.1"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/transformer-stylus@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-stylus/-/transformer-stylus-2.0.0-nightly.449.tgz#8c30eb821c59360e2901688993a423726f496518"
-  integrity sha1-jDDrghxZNg4pAWiJk6Qjcm9JZRg=
+"@parcel/transformer-stylus@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-stylus/-/transformer-stylus-2.0.0-beta.1.tgz#5ee55a080cad210f3d7ba0c086caba4c85821b93"
+  integrity sha1-XuVaCAytIQ89e6DAhsq6TIWCG5M=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
 
-"@parcel/transformer-sugarss@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-sugarss/-/transformer-sugarss-2.0.0-nightly.449.tgz#5e577e3c6cb155ad3402e8366d50dcef35f71e6c"
-  integrity sha1-Xld+PGyxVa00Aug2bVDc7zX3Hmw=
+"@parcel/transformer-sugarss@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-sugarss/-/transformer-sugarss-2.0.0-beta.1.tgz#61e8b20a83bf0746c5a28c942cb588a7e1980fe5"
+  integrity sha1-YeiyCoO/B0bFooyULLWIp+GYD+U=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    postcss "^8.0.5"
+    "@parcel/plugin" "2.0.0-beta.1"
+    postcss "^7.0.5"
 
-"@parcel/transformer-toml@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-toml/-/transformer-toml-2.0.0-nightly.449.tgz#0141bedbc6746e702b31e3a64efc59bc211261a1"
-  integrity sha1-AUG+28Z0bnArMeOmTvxZvCESYaE=
+"@parcel/transformer-toml@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-toml/-/transformer-toml-2.0.0-beta.1.tgz#6dc28dfb0e47be6bf9ea387e19034b8b3d4290dd"
+  integrity sha1-bcKN+w5Hvmv56jh+GQNLiz1CkN0=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-typescript-types@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-typescript-types/-/transformer-typescript-types-2.0.0-nightly.449.tgz#254f735f17c302141ee5e710e55ecf1adc9ac025"
-  integrity sha1-JU9zXxfDAhQe5ecQ5V7PGtyawCU=
+"@parcel/transformer-typescript-types@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-typescript-types/-/transformer-typescript-types-2.0.0-beta.1.tgz#6275cefb72e248e93619d03692952fc5841476d3"
+  integrity sha1-YnXO+3LiSOk2GdA2kpUvxYQUdtM=
   dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/ts-utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/plugin" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    "@parcel/ts-utils" "2.0.0-beta.1"
     nullthrows "^1.1.1"
 
-"@parcel/transformer-vue@2.0.0-nightly.2071+837d1fbd":
-  version "2.0.0-nightly.2071"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-vue/-/transformer-vue-2.0.0-nightly.2071.tgz#37e4c6eb1bfb3af35d66bf9583c93deb32d97577"
-  integrity sha1-N+TG6xv7OvNdZr+Vg8k96zLZdXc=
+"@parcel/transformer-yaml@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-yaml/-/transformer-yaml-2.0.0-beta.1.tgz#f725c1d6d6b3f1e9fec77b6ee1fe6768fc3c3a53"
+  integrity sha1-9yXB1taz8en+x3tu4f5naPw8OlM=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
-    nullthrows "^1.1.1"
-    semver "^5.4.1"
+    "@parcel/plugin" "2.0.0-beta.1"
 
-"@parcel/transformer-yaml@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftransformer-yaml/-/transformer-yaml-2.0.0-nightly.449.tgz#7ee792f2fca24d1c7591b63e225296a046d80caa"
-  integrity sha1-fueS8vyiTRx1kbY+IlKWoEbYDKo=
-  dependencies:
-    "@parcel/plugin" "2.0.0-nightly.449+837d1fbd"
-
-"@parcel/ts-utils@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fts-utils/-/ts-utils-2.0.0-nightly.449.tgz#1585e2e1a0c7a483936347cac5fc7f4c60c73e8d"
-  integrity sha1-FYXi4aDHpIOTY0fKxfx/TGDHPo0=
+"@parcel/ts-utils@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fts-utils/-/ts-utils-2.0.0-beta.1.tgz#bd2da0134e994ec5058acf60383122956178df6b"
+  integrity sha1-vS2gE06ZTsUFis9gODEilWF432s=
   dependencies:
     nullthrows "^1.1.1"
 
-"@parcel/types@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2ftypes/-/types-2.0.0-nightly.449.tgz#549346dc2451927d5ad934a1179f031aadffebef"
-  integrity sha1-VJNG3CRRkn1a2TShF58DGq3/6+8=
+"@parcel/types@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2ftypes/-/types-2.0.0-beta.1.tgz#c5581aa754c342a1e5ef382f2bf20555923b672a"
+  integrity sha1-xVgap1TDQqHl7zgvK/IFVZI7Zyo=
 
-"@parcel/utils@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2futils/-/utils-2.0.0-nightly.449.tgz#575b88501650ce0ce1e3d34a5fc4e5bba3948471"
-  integrity sha1-V1uIUBZQzgzh49NKX8Tlu6OUhHE=
+"@parcel/utils@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2futils/-/utils-2.0.0-beta.1.tgz#885fc328aaab049ef6ccebdb71236f4f013377ee"
+  integrity sha1-iF/DKKqrBJ72zOvbcSNvTwEzd+4=
   dependencies:
     "@iarna/toml" "^2.2.0"
-    "@parcel/codeframe" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/markdown-ansi" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/source-map" "2.0.0-alpha.4.16"
+    "@parcel/codeframe" "2.0.0-beta.1"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/markdown-ansi" "2.0.0-beta.1"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
     ansi-html "^0.0.7"
     chalk "^2.4.2"
     clone "^2.1.1"
     fast-glob "3.1.1"
-    fastest-levenshtein "^1.0.8"
     is-glob "^4.0.0"
     is-url "^1.2.2"
+    js-levenshtein "^1.1.6"
     json5 "^1.0.1"
     micromatch "^4.0.2"
-    node-forge "^0.10.0"
+    node-forge "^0.8.1"
     nullthrows "^1.1.1"
     open "^7.0.3"
     resolve "^1.12.0"
+    serialize-to-js "^3.0.1"
+    terser "^3.7.3"
 
-"@parcel/watcher@2.0.0-alpha.8":
-  version "2.0.0-alpha.8"
-  resolved "https://unpm.uberinternal.com/@parcel%2fwatcher/-/watcher-2.0.0-alpha.8.tgz#7aee9504b87eebc73c794c611a6673e58b81e0b1"
-  integrity sha1-eu6VBLh+68c8eUxhGmZz5YuB4LE=
+"@parcel/watcher@^2.0.0-alpha.5":
+  version "2.0.0-alpha.9"
+  resolved "https://unpm.uberinternal.com/@parcel%2fwatcher/-/watcher-2.0.0-alpha.9.tgz#58010b069a8e64f0c3d0059263f6a525522398d2"
+  integrity sha1-WAELBpqOZPDD0AWSY/alJVIjmNI=
   dependencies:
-    lint-staged "^10.0.8"
-    node-addon-api "^3.0.0"
-    node-gyp-build "^4.2.1"
+    node-addon-api "^3.0.2"
+    node-gyp-build "^4.2.3"
 
-"@parcel/workers@2.0.0-nightly.449+837d1fbd":
-  version "2.0.0-nightly.449"
-  resolved "https://unpm.uberinternal.com/@parcel%2fworkers/-/workers-2.0.0-nightly.449.tgz#d9cf498864cf263abdcf53ddac21cf2f6f830327"
-  integrity sha1-2c9JiGTPJjq9z1PdrCHPL2+DAyc=
+"@parcel/workers@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/@parcel%2fworkers/-/workers-2.0.0-beta.1.tgz#9a57544479862ce886c1b8280bc31c7bc6b467ab"
+  integrity sha1-mldURHmGLOiGwbgoC8Mce8a0Z6s=
   dependencies:
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
@@ -1771,13 +1736,6 @@
   resolved "https://unpm.uberinternal.com/@types%2festree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
   integrity sha1-6Th1cpmOXs2sIhlQ2rPow7Fq+IQ=
 
-"@types/http-proxy@^1.17.4":
-  version "1.17.4"
-  resolved "https://unpm.uberinternal.com/@types%2fhttp-proxy/-/http-proxy-1.17.4.tgz#e7c92e3dbe3e13aa799440ff42e6d3a17a9d045b"
-  integrity sha1-58kuPb4+E6p5lED/QubToXqdBFs=
-  dependencies:
-    "@types/node" "*"
-
 "@types/json-schema@*", "@types/json-schema@^7.0.6":
   version "7.0.6"
   resolved "https://unpm.uberinternal.com/@types%2fjson-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
@@ -1787,11 +1745,6 @@
   version "14.14.8"
   resolved "https://unpm.uberinternal.com/@types%2fnode/-/node-14.14.8.tgz#2127bd81949a95c8b7d3240f3254352d72563aec"
   integrity sha1-ISe9gZSalci30yQPMlQ1LXJWOuw=
-
-"@types/parse-json@^4.0.0":
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/@types%2fparse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
-  integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
 
 "@types/q@^1.5.1":
   version "1.5.4"
@@ -2033,14 +1986,6 @@ acorn@^8.0.4:
   resolved "https://unpm.uberinternal.com/acorn/-/acorn-8.0.4.tgz#7a3ae4191466a6984eee0fe3407a4f3aa9db8354"
   integrity sha1-ejrkGRRmpphO7g/jQHpPOqnbg1Q=
 
-aggregate-error@^3.0.0:
-  version "3.1.0"
-  resolved "https://unpm.uberinternal.com/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
-  integrity sha1-kmcP9Q9TWb23o+DUDQ7DDFc3aHo=
-  dependencies:
-    clean-stack "^2.0.0"
-    indent-string "^4.0.0"
-
 ajv-keywords@^3.5.2:
   version "3.5.2"
   resolved "https://unpm.uberinternal.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
@@ -2065,13 +2010,6 @@ ansi-colors@^4.1.1:
   version "4.1.1"
   resolved "https://unpm.uberinternal.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
   integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
-
-ansi-escapes@^4.3.0:
-  version "4.3.1"
-  resolved "https://unpm.uberinternal.com/ansi-escapes/-/ansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
-  integrity sha1-pcR8xDGB8fOP/XB2g3cA05VSKmE=
-  dependencies:
-    type-fest "^0.11.0"
 
 ansi-html@^0.0.7:
   version "0.0.7"
@@ -2262,13 +2200,6 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://unpm.uberinternal.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
-
-base-x@^3.0.8:
-  version "3.0.8"
-  resolved "https://unpm.uberinternal.com/base-x/-/base-x-3.0.8.tgz#1e1106c2537f0162e8b52474a557ebb09000018d"
-  integrity sha1-HhEGwlN/AWLotSR0pVfrsJAAAY0=
-  dependencies:
-    safe-buffer "^5.0.1"
 
 base64-js@^1.3.1:
   version "1.5.1"
@@ -2467,11 +2398,6 @@ builtin-status-codes@^3.0.0:
   resolved "https://unpm.uberinternal.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bytes@3.0.0:
-  version "3.0.0"
-  resolved "https://unpm.uberinternal.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
-  integrity sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
-
 bytes@3.1.0:
   version "3.1.0"
   resolved "https://unpm.uberinternal.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
@@ -2518,11 +2444,6 @@ callsites@^2.0.0:
   version "2.0.0"
   resolved "https://unpm.uberinternal.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
   integrity sha1-BuuE8A7qQT2oav/vrL/7Ngk7PFA=
-
-callsites@^3.0.0:
-  version "3.1.0"
-  resolved "https://unpm.uberinternal.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
-  integrity sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M=
 
 caniuse-api@^3.0.0:
   version "3.0.0"
@@ -2577,14 +2498,6 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
-  version "4.1.0"
-  resolved "https://unpm.uberinternal.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
 chokidar@3.3.1:
   version "3.3.1"
   resolved "https://unpm.uberinternal.com/chokidar/-/chokidar-3.3.1.tgz#c84e5b3d18d9a4d77558fef466b1bf16bbeb3450"
@@ -2632,11 +2545,6 @@ clean-css@^4.2.1:
   dependencies:
     source-map "~0.6.0"
 
-clean-stack@^2.0.0:
-  version "2.2.0"
-  resolved "https://unpm.uberinternal.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
-  integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
-
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://unpm.uberinternal.com/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
@@ -2648,14 +2556,6 @@ cli-spinners@^2.2.0:
   version "2.5.0"
   resolved "https://unpm.uberinternal.com/cli-spinners/-/cli-spinners-2.5.0.tgz#12763e47251bf951cb75c201dfa58ff1bcb2d047"
   integrity sha1-EnY+RyUb+VHLdcIB36WP8byy0Ec=
-
-cli-truncate@^2.1.0:
-  version "2.1.0"
-  resolved "https://unpm.uberinternal.com/cli-truncate/-/cli-truncate-2.1.0.tgz#c39e28bf05edcde5be3b98992a22deed5a2b93c7"
-  integrity sha1-w54ovwXtzeW+O5iZKiLe7Vork8c=
-  dependencies:
-    slice-ansi "^3.0.0"
-    string-width "^4.2.0"
 
 clone@^1.0.2:
   version "1.0.4"
@@ -2811,11 +2711,6 @@ constants-browserify@^1.0.0:
   resolved "https://unpm.uberinternal.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
   integrity sha1-wguW2MYXdIqvHBYCF2DNJ/y4y3U=
 
-content-disposition@0.5.2:
-  version "0.5.2"
-  resolved "https://unpm.uberinternal.com/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
-  integrity sha1-DPaLud318r55YcOoUXjLhdunjLQ=
-
 content-disposition@0.5.3:
   version "0.5.3"
   resolved "https://unpm.uberinternal.com/content-disposition/-/content-disposition-0.5.3.tgz#e130caf7e7279087c5616c2007d0485698984fbd"
@@ -2877,17 +2772,6 @@ cosmiconfig@^5.0.0:
     is-directory "^0.3.1"
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
-
-cosmiconfig@^7.0.0:
-  version "7.0.0"
-  resolved "https://unpm.uberinternal.com/cosmiconfig/-/cosmiconfig-7.0.0.tgz#ef9b44d773959cae63ddecd122de23853b60f8d3"
-  integrity sha1-75tE13OVnK5j3ezRIt4jhTtg+NM=
-  dependencies:
-    "@types/parse-json" "^4.0.0"
-    import-fresh "^3.2.1"
-    parse-json "^5.0.0"
-    path-type "^4.0.0"
-    yaml "^1.10.0"
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -3141,7 +3025,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^4.1.0, debug@^4.1.1, debug@^4.2.0:
+debug@^4.1.0, debug@^4.1.1:
   version "4.2.0"
   resolved "https://unpm.uberinternal.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha1-fxUPk5IOlMWPVXTC/QGjEQ7/5/E=
@@ -3152,11 +3036,6 @@ decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "https://unpm.uberinternal.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
-
-dedent@^0.7.0:
-  version "0.7.0"
-  resolved "https://unpm.uberinternal.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
-  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
 deep-extend@~0.6.0:
   version "0.6.0"
@@ -3694,18 +3573,6 @@ fast-levenshtein@~2.0.6:
   resolved "https://unpm.uberinternal.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fast-url-parser@1.1.3:
-  version "1.1.3"
-  resolved "https://unpm.uberinternal.com/fast-url-parser/-/fast-url-parser-1.1.3.tgz#f4af3ea9f34d8a271cf58ad2b3759f431f0b318d"
-  integrity sha1-9K8+qfNNiicc9YrSs3WfQx8LMY0=
-  dependencies:
-    punycode "^1.3.2"
-
-fastest-levenshtein@^1.0.8:
-  version "1.0.12"
-  resolved "https://unpm.uberinternal.com/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
-  integrity sha1-mZD306iMxan/0fF0V0UlFwDUl+I=
-
 fastparse@^1.1.2:
   version "1.1.2"
   resolved "https://unpm.uberinternal.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
@@ -3724,13 +3591,6 @@ fault@^1.0.2:
   integrity sha1-6vz8Cm0hT8lGAeFw3ymVSk+ELxM=
   dependencies:
     format "^0.2.0"
-
-figures@^3.2.0:
-  version "3.2.0"
-  resolved "https://unpm.uberinternal.com/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
-  integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
-  dependencies:
-    escape-string-regexp "^1.0.5"
 
 filesize@^3.6.0:
   version "3.6.1"
@@ -3905,11 +3765,6 @@ get-intrinsic@^1.0.0:
     function-bind "^1.1.1"
     has "^1.0.3"
     has-symbols "^1.0.1"
-
-get-own-enumerable-property-symbols@^3.0.0:
-  version "3.0.2"
-  resolved "https://unpm.uberinternal.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
-  integrity sha1-tf3nfyLL4185C04ImSLFC85u9mQ=
 
 get-port@^4.2.0:
   version "4.2.0"
@@ -4182,6 +4037,16 @@ http-errors@~1.7.2:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
+http-proxy-middleware@^0.19.1:
+  version "0.19.2"
+  resolved "https://unpm.uberinternal.com/http-proxy-middleware/-/http-proxy-middleware-0.19.2.tgz#ee73dcc8348165afefe8de2ff717751d181608ee"
+  integrity sha1-7nPcyDSBZa/v6N4v9xd1HRgWCO4=
+  dependencies:
+    http-proxy "^1.18.1"
+    is-glob "^4.0.0"
+    lodash "^4.17.11"
+    micromatch "^3.1.10"
+
 http-proxy-middleware@^0.20.0:
   version "0.20.0"
   resolved "https://unpm.uberinternal.com/http-proxy-middleware/-/http-proxy-middleware-0.20.0.tgz#5b128f7207985c4ea91b53fab8ad897a48c690d6"
@@ -4190,17 +4055,6 @@ http-proxy-middleware@^0.20.0:
     http-proxy "^1.17.0"
     is-glob "^4.0.1"
     lodash "^4.17.14"
-    micromatch "^4.0.2"
-
-http-proxy-middleware@^1.0.0:
-  version "1.0.6"
-  resolved "https://unpm.uberinternal.com/http-proxy-middleware/-/http-proxy-middleware-1.0.6.tgz#0618557722f450375d3796d701a8ac5407b3b94e"
-  integrity sha1-BhhVdyL0UDddN5bXAaisVAezuU4=
-  dependencies:
-    "@types/http-proxy" "^1.17.4"
-    http-proxy "^1.18.1"
-    is-glob "^4.0.1"
-    lodash "^4.17.20"
     micromatch "^4.0.2"
 
 http-proxy@^1.17.0, http-proxy@^1.18.1:
@@ -4266,14 +4120,6 @@ import-fresh@^2.0.0:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
 
-import-fresh@^3.2.1:
-  version "3.2.2"
-  resolved "https://unpm.uberinternal.com/import-fresh/-/import-fresh-3.2.2.tgz#fc129c160c5d68235507f4331a6baad186bdbc3e"
-  integrity sha1-/BKcFgxdaCNVB/QzGmuq0Ya9vD4=
-  dependencies:
-    parent-module "^1.0.0"
-    resolve-from "^4.0.0"
-
 import-local@^3.0.2:
   version "3.0.2"
   resolved "https://unpm.uberinternal.com/import-local/-/import-local-3.0.2.tgz#a8cfd0431d1de4a2199703d003e3e62364fa6db6"
@@ -4286,11 +4132,6 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://unpm.uberinternal.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
-
-indent-string@^4.0.0:
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
-  integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
 
 indexes-of@^1.0.1:
   version "1.0.1"
@@ -4517,11 +4358,6 @@ is-number@^7.0.0:
   resolved "https://unpm.uberinternal.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
-is-obj@^1.0.1:
-  version "1.0.1"
-  resolved "https://unpm.uberinternal.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
-  integrity sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
-
 is-obj@^2.0.0:
   version "2.0.0"
   resolved "https://unpm.uberinternal.com/is-obj/-/is-obj-2.0.0.tgz#473fb05d973705e3fd9620545018ca8e22ef4982"
@@ -4540,11 +4376,6 @@ is-regex@^1.1.1:
   integrity sha1-xvmKrMVG9s7FRooHt7FTq1ZKV7k=
   dependencies:
     has-symbols "^1.0.1"
-
-is-regexp@^1.0.0:
-  version "1.0.0"
-  resolved "https://unpm.uberinternal.com/is-regexp/-/is-regexp-1.0.0.tgz#fd2d883545c46bac5a633e7b9a09e87fa2cb5069"
-  integrity sha1-/S2INUXEa6xaYz57mgnof6LLUGk=
 
 is-resolvable@^1.0.0:
   version "1.1.0"
@@ -4602,7 +4433,7 @@ is-wsl@^2.1.1:
   dependencies:
     is-docker "^2.0.0"
 
-isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
+isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://unpm.uberinternal.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
@@ -4643,7 +4474,12 @@ jest-worker@^26.2.1, jest-worker@^26.6.1:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-js-tokens@^4.0.0:
+js-levenshtein@^1.1.6:
+  version "1.1.6"
+  resolved "https://unpm.uberinternal.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
+  integrity sha1-xs7ljrNVA3LfjeuF+tXOZs4B1Z0=
+
+"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://unpm.uberinternal.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
@@ -4707,11 +4543,6 @@ json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://unpm.uberinternal.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha1-u4Z8+zRQ5pEHwTHRxRS6s9yLyqk=
-
-json-parse-even-better-errors@^2.3.0:
-  version "2.3.1"
-  resolved "https://unpm.uberinternal.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
-  integrity sha1-fEeAWpQxmSjgV3dAXcEuH3pO4C0=
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
@@ -4808,54 +4639,6 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-line-column@^1.0.2:
-  version "1.0.2"
-  resolved "https://unpm.uberinternal.com/line-column/-/line-column-1.0.2.tgz#d25af2936b6f4849172b312e4792d1d987bc34a2"
-  integrity sha1-0lryk2tvSEkXKzEuR5LR2Ye8NKI=
-  dependencies:
-    isarray "^1.0.0"
-    isobject "^2.0.0"
-
-lines-and-columns@^1.1.6:
-  version "1.1.6"
-  resolved "https://unpm.uberinternal.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
-  integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-
-lint-staged@^10.0.8:
-  version "10.5.1"
-  resolved "https://unpm.uberinternal.com/lint-staged/-/lint-staged-10.5.1.tgz#901e915c2360072dded0e7d752a0d9a49e079daa"
-  integrity sha1-kB6RXCNgBy3e0OfXUqDZpJ4Hnao=
-  dependencies:
-    chalk "^4.1.0"
-    cli-truncate "^2.1.0"
-    commander "^6.2.0"
-    cosmiconfig "^7.0.0"
-    debug "^4.2.0"
-    dedent "^0.7.0"
-    enquirer "^2.3.6"
-    execa "^4.1.0"
-    listr2 "^3.2.2"
-    log-symbols "^4.0.0"
-    micromatch "^4.0.2"
-    normalize-path "^3.0.0"
-    please-upgrade-node "^3.2.0"
-    string-argv "0.3.1"
-    stringify-object "^3.3.0"
-
-listr2@^3.2.2:
-  version "3.2.2"
-  resolved "https://unpm.uberinternal.com/listr2/-/listr2-3.2.2.tgz#d20feb75015e506992b55af40722ba1af168b8f1"
-  integrity sha1-0g/rdQFeUGmStVr0ByK6GvFouPE=
-  dependencies:
-    chalk "^4.1.0"
-    cli-truncate "^2.1.0"
-    figures "^3.2.0"
-    indent-string "^4.0.0"
-    log-update "^4.0.0"
-    p-map "^4.0.0"
-    rxjs "^6.6.3"
-    through "^2.3.8"
-
 loader-runner@^4.1.0:
   version "4.1.0"
   resolved "https://unpm.uberinternal.com/loader-runner/-/loader-runner-4.1.0.tgz#f70bc0c29edbabdf2043e7ee73ccc3fe1c96b42d"
@@ -4893,7 +4676,7 @@ lodash.uniq@^4.5.0:
   resolved "https://unpm.uberinternal.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.20"
   resolved "https://unpm.uberinternal.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
@@ -4905,22 +4688,12 @@ log-symbols@^3.0.0:
   dependencies:
     chalk "^2.4.2"
 
-log-symbols@^4.0.0:
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/log-symbols/-/log-symbols-4.0.0.tgz#69b3cc46d20f448eccdb75ea1fa733d9e821c920"
-  integrity sha1-abPMRtIPRI7M23XqH6cz2eghySA=
+loose-envify@^1.1.0, loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://unpm.uberinternal.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
   dependencies:
-    chalk "^4.0.0"
-
-log-update@^4.0.0:
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/log-update/-/log-update-4.0.0.tgz#589ecd352471f2a1c0c570287543a64dfd20e0a1"
-  integrity sha1-WJ7NNSRx8qHAxXAodUOmTf0g4KE=
-  dependencies:
-    ansi-escapes "^4.3.0"
-    cli-cursor "^3.1.0"
-    slice-ansi "^4.0.0"
-    wrap-ansi "^6.2.0"
+    js-tokens "^3.0.0 || ^4.0.0"
 
 lowlight@~1.9.0:
   version "1.9.2"
@@ -4991,7 +4764,7 @@ methods@~1.1.2:
   resolved "https://unpm.uberinternal.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
-micromatch@^3.0.4:
+micromatch@^3.0.4, micromatch@^3.1.10:
   version "3.1.10"
   resolved "https://unpm.uberinternal.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   integrity sha1-cIWbyVyYQJUvNZoGij/En57PrCM=
@@ -5031,18 +4804,6 @@ mime-db@1.44.0:
   resolved "https://unpm.uberinternal.com/mime-db/-/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
   integrity sha1-+hHF6wrKEzS0Izy01S8QxaYnL5I=
 
-mime-db@~1.33.0:
-  version "1.33.0"
-  resolved "https://unpm.uberinternal.com/mime-db/-/mime-db-1.33.0.tgz#a3492050a5cb9b63450541e39d9788d2272783db"
-  integrity sha1-o0kgUKXLm2NFBUHjnZeI0icng9s=
-
-mime-types@2.1.18:
-  version "2.1.18"
-  resolved "https://unpm.uberinternal.com/mime-types/-/mime-types-2.1.18.tgz#6f323f60a83d11146f831ff11fd66e2fe5503bb8"
-  integrity sha1-bzI/YKg9ERRvgx/xH9ZuL+VQO7g=
-  dependencies:
-    mime-db "~1.33.0"
-
 mime-types@^2.1.12, mime-types@^2.1.27, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.27"
   resolved "https://unpm.uberinternal.com/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
@@ -5075,7 +4836,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   resolved "https://unpm.uberinternal.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
-minimatch@3.0.4, minimatch@^3.0.4:
+minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://unpm.uberinternal.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
@@ -5122,11 +4883,6 @@ mute-stream@0.0.8:
   resolved "https://unpm.uberinternal.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
 
-nanoid@^3.1.16:
-  version "3.1.16"
-  resolved "https://unpm.uberinternal.com/nanoid/-/nanoid-3.1.16.tgz#b21f0a7d031196faf75314d7c65d36352beeef64"
-  integrity sha1-sh8KfQMRlvr3UxTXxl02NSvu72Q=
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://unpm.uberinternal.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -5164,17 +4920,22 @@ nice-try@^1.0.4:
   resolved "https://unpm.uberinternal.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha1-ozeKdpbOfSI+iPybdkvX7xCJ42Y=
 
-node-addon-api@^3.0.0:
+node-addon-api@^2.0.0:
+  version "2.0.2"
+  resolved "https://unpm.uberinternal.com/node-addon-api/-/node-addon-api-2.0.2.tgz#432cfa82962ce494b132e9d72a15b29f71ff5d32"
+  integrity sha1-Qyz6gpYs5JSxMunXKhWyn3H/XTI=
+
+node-addon-api@^3.0.2:
   version "3.0.2"
   resolved "https://unpm.uberinternal.com/node-addon-api/-/node-addon-api-3.0.2.tgz#04bc7b83fd845ba785bb6eae25bc857e1ef75681"
   integrity sha1-BLx7g/2EW6eFu26uJbyFfh73VoE=
 
-node-forge@^0.10.0:
-  version "0.10.0"
-  resolved "https://unpm.uberinternal.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
-  integrity sha1-Mt6ir7Ppkm8C7lzoeUkCaRpna/M=
+node-forge@^0.8.1:
+  version "0.8.5"
+  resolved "https://unpm.uberinternal.com/node-forge/-/node-forge-0.8.5.tgz#57906f07614dc72762c84cef442f427c0e1b86ee"
+  integrity sha1-V5BvB2FNxydiyEzvRC9CfA4bhu4=
 
-node-gyp-build@^4.2.1, node-gyp-build@^4.2.2:
+node-gyp-build@^4.2.2, node-gyp-build@^4.2.3:
   version "4.2.3"
   resolved "https://unpm.uberinternal.com/node-gyp-build/-/node-gyp-build-4.2.3.tgz#ce6277f853835f718829efb47db20f3e4d9c4739"
   integrity sha1-zmJ3+FODX3GIKe+0fbIPPk2cRzk=
@@ -5222,6 +4983,11 @@ oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://unpm.uberinternal.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU=
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://unpm.uberinternal.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
 object-copy@^0.1.0:
   version "0.1.0"
@@ -5380,13 +5146,6 @@ p-locate@^4.1.0:
   dependencies:
     p-limit "^2.2.0"
 
-p-map@^4.0.0:
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/p-map/-/p-map-4.0.0.tgz#bb2f95a5eda2ec168ec9274e06a747c3e2904d2b"
-  integrity sha1-uy+Vpe2i7BaOySdOBqdHw+KQTSs=
-  dependencies:
-    aggregate-error "^3.0.0"
-
 p-try@^2.0.0:
   version "2.2.0"
   resolved "https://unpm.uberinternal.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
@@ -5397,30 +5156,23 @@ pako@~1.0.5:
   resolved "https://unpm.uberinternal.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha1-bJWZ00DVTf05RjgCUqNXBaa5kr8=
 
-parcel@^2.0.0-beta.1:
-  version "2.0.0-nightly.447"
-  resolved "https://unpm.uberinternal.com/parcel/-/parcel-2.0.0-nightly.447.tgz#325e4f3797fe68d2e416ddfb9acbe80e818130a9"
-  integrity sha1-Ml5PN5f+aNLkFt37msvoDoGBMKk=
+parcel@2.0.0-beta.1:
+  version "2.0.0-beta.1"
+  resolved "https://unpm.uberinternal.com/parcel/-/parcel-2.0.0-beta.1.tgz#7b23be0217da198f0e8f0d14f0107d8d938074dd"
+  integrity sha1-eyO+AhfaGY8Ojw0U8BB9jZOAdN0=
   dependencies:
-    "@parcel/config-default" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/core" "2.0.0-nightly.447+837d1fbd"
-    "@parcel/diagnostic" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/events" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/fs" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/logger" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/package-manager" "2.0.0-nightly.449+837d1fbd"
-    "@parcel/utils" "2.0.0-nightly.449+837d1fbd"
+    "@parcel/config-default" "2.0.0-beta.1"
+    "@parcel/core" "2.0.0-beta.1"
+    "@parcel/diagnostic" "2.0.0-beta.1"
+    "@parcel/fs" "2.0.0-beta.1"
+    "@parcel/logger" "2.0.0-beta.1"
+    "@parcel/package-manager" "2.0.0-beta.1"
+    "@parcel/utils" "2.0.0-beta.1"
     chalk "^2.1.0"
     commander "^2.19.0"
     get-port "^4.2.0"
+    react "^16.7.0"
     v8-compile-cache "^2.0.0"
-
-parent-module@^1.0.0:
-  version "1.0.1"
-  resolved "https://unpm.uberinternal.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
-  integrity sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI=
-  dependencies:
-    callsites "^3.0.0"
 
 parse-asn1@^5.0.0, parse-asn1@^5.1.5:
   version "5.1.6"
@@ -5440,16 +5192,6 @@ parse-json@^4.0.0:
   dependencies:
     error-ex "^1.3.1"
     json-parse-better-errors "^1.0.1"
-
-parse-json@^5.0.0:
-  version "5.1.0"
-  resolved "https://unpm.uberinternal.com/parse-json/-/parse-json-5.1.0.tgz#f96088cdf24a8faa9aea9a009f2d9d942c999646"
-  integrity sha1-+WCIzfJKj6qa6poAny2dlCyZlkY=
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    error-ex "^1.3.1"
-    json-parse-even-better-errors "^2.3.0"
-    lines-and-columns "^1.1.6"
 
 parse5@5.1.0:
   version "5.1.0"
@@ -5481,11 +5223,6 @@ path-is-absolute@^1.0.0:
   resolved "https://unpm.uberinternal.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-path-is-inside@1.0.2:
-  version "1.0.2"
-  resolved "https://unpm.uberinternal.com/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
-  integrity sha1-NlQX3t5EQw0cEa9hAn+s8HS9/FM=
-
 path-key@^2.0.1:
   version "2.0.1"
   resolved "https://unpm.uberinternal.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
@@ -5505,11 +5242,6 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://unpm.uberinternal.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
-
-path-to-regexp@2.2.1:
-  version "2.2.1"
-  resolved "https://unpm.uberinternal.com/path-to-regexp/-/path-to-regexp-2.2.1.tgz#90b617025a16381a879bc82a38d4e8bdeb2bcf45"
-  integrity sha1-kLYXAloWOBqHm8gqONTovesrz0U=
 
 path-type@^4.0.0:
   version "4.0.0"
@@ -5548,13 +5280,6 @@ pkg-dir@^4.2.0:
   integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
   dependencies:
     find-up "^4.0.0"
-
-please-upgrade-node@^3.2.0:
-  version "3.2.0"
-  resolved "https://unpm.uberinternal.com/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz#aeddd3f994c933e4ad98b99d9a556efa0e2fe942"
-  integrity sha1-rt3T+ZTJM+StmLmdmlVu+g4v6UI=
-  dependencies:
-    semver-compare "^1.0.0"
 
 pn@^1.1.0:
   version "1.1.0"
@@ -5882,12 +5607,12 @@ postcss-unique-selectors@^4.0.1:
     postcss "^7.0.0"
     uniqs "^2.0.0"
 
-postcss-value-parser@^3.0.0, postcss-value-parser@^3.2.3:
+postcss-value-parser@^3.0.0, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.1:
   version "3.3.1"
   resolved "https://unpm.uberinternal.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha1-n/giVH4okyE88cMO+lGsX9G6goE=
 
-postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
+postcss-value-parser@^4.0.2:
   version "4.1.0"
   resolved "https://unpm.uberinternal.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
@@ -5919,7 +5644,7 @@ postcss@^6.0.1:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17, postcss@^7.0.26, postcss@^7.0.27:
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.5:
   version "7.0.35"
   resolved "https://unpm.uberinternal.com/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
   integrity sha1-0r4AuZj38hHYonaXQHny6SuXDiQ=
@@ -5927,16 +5652,6 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17, postcss@^7.0.26, postcss@^7.0.2
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postcss@^8.0.5:
-  version "8.1.7"
-  resolved "https://unpm.uberinternal.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
-  integrity sha1-/2qCaRvYYfM1T9mxeyMy+IFxIz8=
-  dependencies:
-    colorette "^1.2.1"
-    line-column "^1.0.2"
-    nanoid "^3.1.16"
-    source-map "^0.6.1"
 
 posthtml-parser@^0.4.1:
   version "0.4.2"
@@ -5998,6 +5713,15 @@ process@^0.11.10:
   resolved "https://unpm.uberinternal.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
+prop-types@^15.6.2:
+  version "15.7.2"
+  resolved "https://unpm.uberinternal.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 proxy-addr@~2.0.5:
   version "2.0.6"
   resolved "https://unpm.uberinternal.com/proxy-addr/-/proxy-addr-2.0.6.tgz#fdc2336505447d3f2f2c638ed272caf614bbb2bf"
@@ -6036,7 +5760,7 @@ punycode@1.3.2:
   resolved "https://unpm.uberinternal.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
   integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
 
-punycode@^1.3.2, punycode@^1.4.1:
+punycode@^1.4.1:
   version "1.4.1"
   resolved "https://unpm.uberinternal.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
@@ -6076,7 +5800,7 @@ querystring-es3@^0.2.1:
   resolved "https://unpm.uberinternal.com/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
   integrity sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM=
 
-querystring@0.2.0, querystring@^0.2.0:
+querystring@0.2.0:
   version "0.2.0"
   resolved "https://unpm.uberinternal.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
@@ -6096,11 +5820,6 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-range-parser@1.2.0:
-  version "1.2.0"
-  resolved "https://unpm.uberinternal.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
-  integrity sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
-
 range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://unpm.uberinternal.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
@@ -6116,10 +5835,24 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-refresh@^0.9.0:
-  version "0.9.0"
-  resolved "https://unpm.uberinternal.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
-  integrity sha1-cYYzN63D5cL4pr/d0Srjv+Mqr78=
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://unpm.uberinternal.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-refresh@^0.6.0:
+  version "0.6.0"
+  resolved "https://unpm.uberinternal.com/react-refresh/-/react-refresh-0.6.0.tgz#81971b8f3c8c05aaa6ce87491ae41b396133f896"
+  integrity sha1-gZcbjzyMBaqmzodJGuQbOWEz+JY=
+
+react@^16.7.0:
+  version "16.14.0"
+  resolved "https://unpm.uberinternal.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha1-lNd23dCqo32j7aj8W2sYpMmjEU0=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -6299,11 +6032,6 @@ resolve-from@^3.0.0:
   resolved "https://unpm.uberinternal.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
   integrity sha1-six699nWiBvItuZTM17rywoYh0g=
 
-resolve-from@^4.0.0:
-  version "4.0.0"
-  resolved "https://unpm.uberinternal.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
-  integrity sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY=
-
 resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://unpm.uberinternal.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
@@ -6350,10 +6078,10 @@ rgba-regex@^1.0.0:
   resolved "https://unpm.uberinternal.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rimraf@^3.0.2:
-  version "3.0.2"
-  resolved "https://unpm.uberinternal.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
-  integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
+rimraf@^2.6.2:
+  version "2.7.1"
+  resolved "https://unpm.uberinternal.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
+  integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
   dependencies:
     glob "^7.1.3"
 
@@ -6386,13 +6114,6 @@ run-parallel@^1.1.9:
   version "1.1.10"
   resolved "https://unpm.uberinternal.com/run-parallel/-/run-parallel-1.1.10.tgz#60a51b2ae836636c81377df16cb107351bcd13ef"
   integrity sha1-YKUbKug2Y2yBN33xbLEHNRvNE+8=
-
-rxjs@^6.6.3:
-  version "6.6.3"
-  resolved "https://unpm.uberinternal.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
-  integrity sha1-jKhGNcTaqQDA05Z6buesYCce5VI=
-  dependencies:
-    tslib "^1.9.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -6436,11 +6157,6 @@ schema-utils@^3.0.0:
     "@types/json-schema" "^7.0.6"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
-
-semver-compare@^1.0.0:
-  version "1.0.0"
-  resolved "https://unpm.uberinternal.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
-  integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
 
 semver@7.0.0:
   version "7.0.0"
@@ -6490,19 +6206,10 @@ serialize-javascript@^5.0.1:
   dependencies:
     randombytes "^2.1.0"
 
-serve-handler@^6.0.0:
-  version "6.1.3"
-  resolved "https://unpm.uberinternal.com/serve-handler/-/serve-handler-6.1.3.tgz#1bf8c5ae138712af55c758477533b9117f6435e8"
-  integrity sha1-G/jFrhOHEq9Vx1hHdTO5EX9kNeg=
-  dependencies:
-    bytes "3.0.0"
-    content-disposition "0.5.2"
-    fast-url-parser "1.1.3"
-    mime-types "2.1.18"
-    minimatch "3.0.4"
-    path-is-inside "1.0.2"
-    path-to-regexp "2.2.1"
-    range-parser "1.2.0"
+serialize-to-js@^3.0.1:
+  version "3.1.1"
+  resolved "https://unpm.uberinternal.com/serialize-to-js/-/serialize-to-js-3.1.1.tgz#b3e77d0568ee4a60bfe66287f991e104d3a1a4ac"
+  integrity sha1-s+d9BWjuSmC/5mKH+ZHhBNOhpKw=
 
 serve-static@1.14.1:
   version "1.14.1"
@@ -6583,15 +6290,6 @@ slash@^3.0.0:
   resolved "https://unpm.uberinternal.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ=
 
-slice-ansi@^3.0.0:
-  version "3.0.0"
-  resolved "https://unpm.uberinternal.com/slice-ansi/-/slice-ansi-3.0.0.tgz#31ddc10930a1b7e0b67b08c96c2f49b77a789787"
-  integrity sha1-Md3BCTCht+C2ewjJbC9Jt3p4l4c=
-  dependencies:
-    ansi-styles "^4.0.0"
-    astral-regex "^2.0.0"
-    is-fullwidth-code-point "^3.0.0"
-
 slice-ansi@^4.0.0:
   version "4.0.0"
   resolved "https://unpm.uberinternal.com/slice-ansi/-/slice-ansi-4.0.0.tgz#500e8dd0fd55b05815086255b3195adf2a45fe6b"
@@ -6647,7 +6345,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.16, source-map-support@~0.5.12, source-map-support@~0.5.19:
+source-map-support@^0.5.16, source-map-support@~0.5.10, source-map-support@~0.5.12, source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://unpm.uberinternal.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
@@ -6755,12 +6453,7 @@ stream-http@^3.1.0:
     readable-stream "^3.6.0"
     xtend "^4.0.2"
 
-string-argv@0.3.1:
-  version "0.3.1"
-  resolved "https://unpm.uberinternal.com/string-argv/-/string-argv-0.3.1.tgz#95e2fbec0427ae19184935f816d74aaa4c5c19da"
-  integrity sha1-leL77AQnrhkYSTX4FtdKqkxcGdo=
-
-string-width@^4.1.0, string-width@^4.2.0:
+string-width@^4.2.0:
   version "4.2.0"
   resolved "https://unpm.uberinternal.com/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
   integrity sha1-lSGCxGzHssMT0VluYjmSvRY7crU=
@@ -6798,15 +6491,6 @@ string_decoder@~1.1.1:
   integrity sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
   dependencies:
     safe-buffer "~5.1.0"
-
-stringify-object@^3.3.0:
-  version "3.3.0"
-  resolved "https://unpm.uberinternal.com/stringify-object/-/stringify-object-3.3.0.tgz#703065aefca19300d3ce88af4f5b3956d7556629"
-  integrity sha1-cDBlrvyhkwDTzoivT1s5VtdVZik=
-  dependencies:
-    get-own-enumerable-property-symbols "^3.0.0"
-    is-obj "^1.0.1"
-    is-regexp "^1.0.0"
 
 strip-ansi@^3.0.0:
   version "3.0.1"
@@ -6925,7 +6609,16 @@ terser-webpack-plugin@^5.0.3:
     source-map "^0.6.1"
     terser "^5.3.8"
 
-terser@^4.5.1, terser@^4.8.0:
+terser@^3.7.3:
+  version "3.17.0"
+  resolved "https://unpm.uberinternal.com/terser/-/terser-3.17.0.tgz#f88ffbeda0deb5637f9d24b0da66f4e15ab10cb2"
+  integrity sha1-+I/77aDetWN/nSSw2mb04VqxDLI=
+  dependencies:
+    commander "^2.19.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.10"
+
+terser@^4.3.0, terser@^4.5.1, terser@^4.8.0:
   version "4.8.0"
   resolved "https://unpm.uberinternal.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
   integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
@@ -6934,7 +6627,7 @@ terser@^4.5.1, terser@^4.8.0:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
-terser@^5.0.0, terser@^5.2.0, terser@^5.3.8:
+terser@^5.0.0, terser@^5.3.8:
   version "5.4.0"
   resolved "https://unpm.uberinternal.com/terser/-/terser-5.4.0.tgz#9815c0839072d5c894e22c6fc508fbe9f5e7d7e8"
   integrity sha1-mBXAg5By1ciU4ixvxQj76fXn1+g=
@@ -6942,11 +6635,6 @@ terser@^5.0.0, terser@^5.2.0, terser@^5.3.8:
     commander "^2.20.0"
     source-map "~0.7.2"
     source-map-support "~0.5.19"
-
-through@^2.3.8:
-  version "2.3.8"
-  resolved "https://unpm.uberinternal.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
 
 timers-browserify@^2.0.11:
   version "2.0.12"
@@ -7052,11 +6740,6 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
-
-type-fest@^0.11.0:
-  version "0.11.0"
-  resolved "https://unpm.uberinternal.com/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
-  integrity sha1-l6vwhyMQ/tiKXEZrJWgVdhReM/E=
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
@@ -7408,15 +7091,6 @@ wordwrapjs@^4.0.0:
     reduce-flatten "^2.0.0"
     typical "^5.0.0"
 
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "https://unpm.uberinternal.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
 wrappy@1:
   version "1.0.2"
   resolved "https://unpm.uberinternal.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
@@ -7448,8 +7122,3 @@ xtend@^4.0.2:
   version "4.0.2"
   resolved "https://unpm.uberinternal.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
-
-yaml@^1.10.0:
-  version "1.10.0"
-  resolved "https://unpm.uberinternal.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
-  integrity sha1-O1k63ZRIdgd9TWg/7gEIG9n/8x4=

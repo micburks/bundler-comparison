@@ -1,5 +1,6 @@
 node_modules
 .cache
 results
+.parcel-cache
 index.js
 *.gz
