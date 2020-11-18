@@ -30,12 +30,12 @@ npm run build
 
 |         | times                                          |
 |---------|-------------------------------------------------------|
-| rollup  | ▉▉▉▉▉ 2025 ms |
-| webpack v5 | ▉▉▉▉▉▉▉▉▉ 3171 ms |
-| esbuild |  103 ms |
-| fusebox | ▉▉▉▉▉▉▉▉ 3104 ms |
-| parcel v2  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 8666 ms |
-| parcel v2 (cache)  | ▉▉▉▉ 1538 ms |
+| rollup  | ▉▉▉▉▉ 2036 ms |
+| webpack v5 | ▉▉▉▉▉▉▉▉ 3144 ms |
+| esbuild |  101 ms |
+| fusebox | ▉▉▉▉▉▉▉▉ 3139 ms |
+| parcel v2  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 8956 ms |
+| parcel v2 (cached)  | ▉▉▉▉ 1549 ms |
 <!-- END -->
 
 Note: Parcel gets a dramatically better outcome with the `--experimental-scope-hoisting` option (smaller than webpack, almost as small as Rollup). Parcel 2 enables this option automatically, but I couldn't get it to create a non-empty bundle.
