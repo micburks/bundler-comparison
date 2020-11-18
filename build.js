@@ -3,6 +3,7 @@ const child_process = require('child_process');
 const util = require('util');
 const pb = require('pretty-bytes');
 var zlib = require('zlib');
+const {performance} = require('perf_hooks');
 
 const exec = util.promisify(child_process.exec);
 
@@ -19,6 +20,13 @@ const compress = (fname) => {
 	});
 }
 
+async function timedExec(...args) {
+  const start = performance.now();
+  await exec(...args);
+  const end = performance.now();
+  return (end - start).toFixed(2);
+}
+
 async function main() {
 	const sizes = {
 		rollup: null,
@@ -28,25 +36,27 @@ async function main() {
 		parcel: null
 	};
 	
-	await exec('npx rollup -c');
+	const rollupTime = await timedExec('npx rollup -c');
 	sizes.rollup = fs.statSync('results/rollup.js').size;
-	console.log(`rollup: ${pb(sizes.rollup)}`);
+	console.log(`rollup: ${pb(sizes.rollup)} in ${rollupTime}`);
 
-	await exec('npx webpack -c');
+	const webpackTime = await timedExec('npx webpack -c webpack.config.js');
 	sizes.webpack = fs.statSync('results/webpack.js').size;
-	console.log(`webpack: ${pb(sizes.webpack)}`);
+	console.log(`webpack: ${pb(sizes.webpack)} in ${webpackTime}`);
 
-	await exec('npx parcel build -d results -o parcel.js -t node index.js');
+  const parcelTime = await timedExec('npx parcel build --dist-dir results --target node index.js');
+  await exec('mv results/index.js results/parcel.js');
+  await exec('mv results/index.js.map results/parcel.js.map');
 	sizes.parcel = fs.statSync('results/parcel.js').size;
-	console.log(`parcel: ${pb(sizes.parcel)}`);
+	console.log(`parcel: ${pb(sizes.parcel)} in ${parcelTime}`);
 
-	await exec('npx esbuild index.js --bundle --outfile=results/esbuild.js --minify --format=cjs --platform=node');
+	const esbuildTime = await timedExec('npx esbuild index.js --bundle --outfile=results/esbuild.js --minify --format=cjs --platform=node');
 	sizes.esbuild = fs.statSync('results/esbuild.js').size;
-	console.log(`esbuild: ${pb(sizes.esbuild)}`);
+	console.log(`esbuild: ${pb(sizes.esbuild)} in ${esbuildTime}`);
 
-	await exec('node fusebox.js');
+	const fuseboxTime = await timedExec('node fusebox.js');
 	sizes.fusebox = fs.statSync('results/fusebox.js').size;
-	console.log(`fusebox: ${pb(sizes.fusebox)}`);
+	console.log(`fusebox: ${pb(sizes.fusebox)} in ${fuseboxTime}`);
 
 	const max_size = Math.max(...Object.values(sizes));
 
@@ -77,6 +87,14 @@ async function main() {
 | esbuild | ${bar(compr.esbuild / max_gzip)} ${pb(compr.esbuild)} |
 | fusebox | ${bar(compr.fusebox / max_gzip)} ${pb(compr.fusebox)} |
 | parcel  | ${bar(compr.parcel / max_gzip)} ${pb(compr.parcel)}   |
+
+|         | times                                          |
+|---------|-------------------------------------------------------|
+| rollup  | ${rollupTime}                                         |
+| webpack | ${webpackTime}                                        |
+| esbuild | ${esbuildTime}                                        |
+| fusebox | ${fuseboxTime}                                        |
+| parcel  | ${parcelTime}                                         |
 `.trim();
 
 	const README = fs.readFileSync('README.md', 'utf-8').replace(/<!-- START -->[\s\S]+<!-- END -->/m, `<!-- START -->\n${results}\n<!-- END -->`);

@@ -14,19 +14,27 @@ npm run build
 <!-- START -->
 |         | output size                                           |
 |---------|-------------------------------------------------------|
-| rollup  | ▉▉▉▉▉▉ 53.9 kB   |
-| esbuild | ▉▉▉▉▉▉ 59.5 kB |
-| webpack | ▉▉▉▉▉▉▉ 64.2 kB |
-| fusebox | ▉▉▉▉▉▉▉▉▉▉▉ 99.8 kB |
-| parcel  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 214 kB   |
+| rollup  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 62.4 kB   |
+| esbuild | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 65.7 kB |
+| webpack | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 62.2 kB |
+| fusebox | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 89.9 kB |
+| parcel  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 81.9 kB   |
 
 |         | gzipped size                                          |
 |---------|-------------------------------------------------------|
-| rollup  | ▉▉▉▉▉▉▉▉▉▉▉ 16.9 kB   |
-| webpack | ▉▉▉▉▉▉▉▉▉▉▉▉▉ 18.6 kB |
-| esbuild | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 21.2 kB |
-| fusebox | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 23.3 kB |
-| parcel  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 35.8 kB   |
+| rollup  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 17.8 kB   |
+| webpack | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 19.9 kB |
+| esbuild | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 22.8 kB |
+| fusebox | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 20.9 kB |
+| parcel  | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 20.6 kB   |
+
+|         | times                                          |
+|---------|-------------------------------------------------------|
+| rollup  | 2960.17                                         |
+| webpack | 4878.80                                        |
+| esbuild | 130.94                                        |
+| fusebox | 3837.23                                        |
+| parcel  | 1911.62                                         |
 <!-- END -->
 
 Note: Parcel gets a dramatically better outcome with the `--experimental-scope-hoisting` option (smaller than webpack, almost as small as Rollup). Parcel 2 enables this option automatically, but I couldn't get it to create a non-empty bundle.
