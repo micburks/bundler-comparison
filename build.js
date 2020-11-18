@@ -51,7 +51,7 @@ async function main() {
 	console.log(`parcel: ${pb(sizes.parcel)} in ${parcelTime}`);
   const parcelCachedTime = await timedExec('npx parcel build --dist-dir results index.js');
 
-	const esbuildTime = await timedExec('npx esbuild index.js --bundle --outfile=results/esbuild.js --minify --format=cjs --platform=node');
+	const esbuildTime = await timedExec('npx esbuild index.js --sourcemap --bundle --outfile=results/esbuild.js --minify --format=cjs --platform=node');
 	sizes.esbuild = fs.statSync('results/esbuild.js').size;
 	console.log(`esbuild: ${pb(sizes.esbuild)} in ${esbuildTime}`);
 
