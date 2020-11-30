@@ -3332,10 +3332,10 @@ es6-object-assign@^1.1.0:
   resolved "https://unpm.uberinternal.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
   integrity sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=
 
-esbuild@^0.8.9:
-  version "0.8.9"
-  resolved "https://unpm.uberinternal.com/esbuild/-/esbuild-0.8.9.tgz#e2b4254ee7aabb23e88c9d4abb38a16668856569"
-  integrity sha1-4rQlTuequyPojJ1KuzihZmiFZWk=
+esbuild@^0.8.15:
+  version "0.8.15"
+  resolved "https://unpm.uberinternal.com/esbuild/-/esbuild-0.8.15.tgz#cbc4d82a7fc4571d455233456e6fba83fd0364f1"
+  integrity sha1-y8TYKn/EVx1FUjNFbm+6g/0DZPE=
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -6587,7 +6587,7 @@ table-layout@^1.0.1:
     typical "^5.2.0"
     wordwrapjs "^4.0.0"
 
-tapable@^2.0.0:
+tapable@^2.0.0, tapable@^2.1.1:
   version "2.1.1"
   resolved "https://unpm.uberinternal.com/tapable/-/tapable-2.1.1.tgz#b01cc1902d42a7bb30514e320ce21c456f72fd3f"
   integrity sha1-sBzBkC1Cp7swUU4yDOIcRW9y/T8=
@@ -7001,10 +7001,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.5.0:
-  version "5.5.0"
-  resolved "https://unpm.uberinternal.com/webpack/-/webpack-5.5.0.tgz#250b3fdc1d876c7e58269d1406e7f9790af04f06"
-  integrity sha1-JQs/3B2HbH5YJp0UBuf5eQrwTwY=
+webpack@^5.9.0:
+  version "5.9.0"
+  resolved "https://unpm.uberinternal.com/webpack/-/webpack-5.9.0.tgz#af2e9cf9d6c7867cdcf214ea3bb5eb77aece6895"
+  integrity sha1-ry6c+dbHhnzc8hTqO7Xrd67OaJU=
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
@@ -7026,7 +7026,7 @@ webpack@^5.5.0:
     neo-async "^2.6.2"
     pkg-dir "^4.2.0"
     schema-utils "^3.0.0"
-    tapable "^2.0.0"
+    tapable "^2.1.1"
     terser-webpack-plugin "^5.0.3"
     watchpack "^2.0.0"
     webpack-sources "^2.1.1"
