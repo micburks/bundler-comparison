@@ -32,7 +32,6 @@ async function main() {
 		rollup: null,
 		webpack: null,
 		esbuild: null,
-		fusebox: null,
 		parcel: null
 	};
 	
@@ -40,9 +39,10 @@ async function main() {
 	sizes.rollup = fs.statSync('results/rollup.js').size;
 	console.log(`rollup: ${pb(sizes.rollup)} in ${rollupTime}`);
 
-	const webpackTime = await timedExec('npx webpack -c webpack.config.js');
+  const webpackTime = await timedExec('npx webpack -c ./webpack.config.js');
 	sizes.webpack = fs.statSync('results/webpack.js').size;
 	console.log(`webpack: ${pb(sizes.webpack)} in ${webpackTime}`);
+  const webpackCachedTime = await timedExec('npx webpack -c ./webpack.config.js');
 
   const parcelTime = await timedExec('npx parcel build --dist-dir results index.js');
   await exec('mv results/index.js results/parcel.js');
@@ -54,10 +54,6 @@ async function main() {
 	const esbuildTime = await timedExec('npx esbuild index.js --sourcemap --bundle --outfile=results/esbuild.js --minify --format=cjs --platform=node');
 	sizes.esbuild = fs.statSync('results/esbuild.js').size;
 	console.log(`esbuild: ${pb(sizes.esbuild)} in ${esbuildTime}`);
-
-	const fuseboxTime = await timedExec('node fusebox.js');
-	sizes.fusebox = fs.statSync('results/fusebox.js').size;
-	console.log(`fusebox: ${pb(sizes.fusebox)} in ${fuseboxTime}`);
 
 	const max_size = Math.max(...Object.values(sizes));
 
@@ -71,7 +67,7 @@ async function main() {
 
 
 	const max_gzip = Math.max(...Object.values(compr));
-  const max_time = Math.max(rollupTime, webpackTime, esbuildTime, fuseboxTime, parcelTime, parcelCachedTime);
+  const max_time = Math.max(rollupTime, webpackTime, webpackCachedTime, esbuildTime, parcelTime, parcelCachedTime);
 
 	const results = `
 |         | output size                                           |
@@ -79,7 +75,6 @@ async function main() {
 | rollup  | ${bar(sizes.rollup / max_size)} ${pb(sizes.rollup)}   |
 | esbuild | ${bar(sizes.esbuild / max_size)} ${pb(sizes.esbuild)} |
 | webpack v5 | ${bar(sizes.webpack / max_size)} ${pb(sizes.webpack)} |
-| fusebox | ${bar(sizes.fusebox / max_size)} ${pb(sizes.fusebox)} |
 | parcel v2  | ${bar(sizes.parcel / max_size)} ${pb(sizes.parcel)}   |
 
 |         | gzipped size                                          |
@@ -87,15 +82,14 @@ async function main() {
 | rollup  | ${bar(compr.rollup / max_gzip)} ${pb(compr.rollup)}   |
 | esbuild | ${bar(compr.esbuild / max_gzip)} ${pb(compr.esbuild)} |
 | webpack v5 | ${bar(compr.webpack / max_gzip)} ${pb(compr.webpack)} |
-| fusebox | ${bar(compr.fusebox / max_gzip)} ${pb(compr.fusebox)} |
 | parcel v2  | ${bar(compr.parcel / max_gzip)} ${pb(compr.parcel)}   |
 
 |         | times                                          |
 |---------|-------------------------------------------------------|
 | rollup  | ${bar(rollupTime / max_time)} ${rollupTime} ms |
 | webpack v5 | ${bar(webpackTime / max_time)} ${webpackTime} ms |
+| webpack v5 (cached) | ${bar(webpackCachedTime / max_time)} ${webpackCachedTime} ms |
 | esbuild | ${bar(esbuildTime / max_time)} ${esbuildTime} ms |
-| fusebox | ${bar(fuseboxTime / max_time)} ${fuseboxTime} ms |
 | parcel v2  | ${bar(parcelTime / max_time)} ${parcelTime} ms |
 | parcel v2 (cached)  | ${bar(parcelCachedTime / max_time)} ${parcelCachedTime} ms |
 `.trim();
